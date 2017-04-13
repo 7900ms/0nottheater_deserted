@@ -1,4 +1,45 @@
 
+更新信息 最新套件信息
+dnf upgrade --refresh (+N) [系统级]
+dnf clean metadata && dnf check-update [软件级]
+
+firefox vlc stellarium 
+
+安装软件
+dnf check-update
+dnf search xxx
+dnf info xxx
+sudo dnf install xxx
+sudo dnf install -y xxx
+sudo dnf remove xxx
+
+安装软件组
+sudo dnf group install kde-desktop-environment
+
+更新软件
+sudo dnf upgrade xxx
+sudo dnf group upgrade <group-spec>
+
+查看list
+dnf list installed | grep xxx
+
+系统升级(fedora22到23)
+sudo dnf upgrade
+sudo dnf upgrade --refresh
+
+/supplementary/系统插件-小贴士-小贴士1
+sudo dnf update (废弃) 和 sudo dnf upgrade 一样的
+
+/supplementary/傲游
+https://fedoraproject.org/wiki/User_Guide_-_Managing_Software
+https://fedoraproject.org/wiki/DNF_system_upgrade
+http://kb.parallels.com/cn/120327
+http://dnf.readthedocs.io/en/latest/user_faq.html
+
+
+
+= = = 碎碎念 = = =
+
 系统组件/包管理
 
 查看软件信息
