@@ -47,6 +47,9 @@ http://www.thegeekstuff.com/2011/08/yum-command-examples/
 
 G dnf command fedora
 
+改源
+http://www.pczone.com.tw/vbb3/thread/41/102673/
+
 = = = 碎碎念 = = =
 
 系统组件/包管理
