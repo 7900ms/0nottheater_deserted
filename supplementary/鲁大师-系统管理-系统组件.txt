@@ -34,12 +34,20 @@ yum info xxx
 
 -
 
+添加源
+
+rpmfusion
+
 
 
 = = = 碎碎念 = = =
 
 /supplementary/eg
 yum install php-mysq
+yum search vlc
+yum info vlc
+yum install -y vlc
+yum remove vlc
 
 /supplementary/傲游
 fedora如何自动更新系统
@@ -47,5 +55,23 @@ http://www.pczone.com.tw/vbb3/thread/41/102673/
 G yum install
 http://www.tecmint.com/20-linux-yum-yellowdog-updater-modified-commands-for-package-mangement/
 http://www.thegeekstuff.com/2011/08/yum-command-examples/
+G PD fedora
+http://kb.parallels.com/cn/120327
+
+dnf和yum
+# yum info vlc
+# dnf info vlc [On Fedora 23+ releases]
+# yum install vlc
+# dnf install vlc [On Fedora 23+ releases]
+# yum update vlc
+# dnf update vlc [On Fedora 23+ releases]
+http://www.tecmint.com/install-vlc-media-player-in-rhel-centos-fedora/
+
+rpmfusion
+检查是否安装了
+yum repolist | grep rpmfusion 
 
 
+
+
+-
