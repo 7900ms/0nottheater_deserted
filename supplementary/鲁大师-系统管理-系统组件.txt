@@ -21,6 +21,10 @@ yum check-update
 
 yum update
 
+更新整个系统 (fedora 22 到 23)
+
+dnf upgrade
+
 -
 
 安装和卸载软件
@@ -31,6 +35,11 @@ yum remove xxx
 yum remove -y xxx
 yum search xxx
 yum info xxx
+
+=
+
+dnf list installed | grep firefox
+dnf info firefox
 
 -
 
@@ -66,12 +75,34 @@ dnf和yum
 # yum update vlc
 # dnf update vlc [On Fedora 23+ releases]
 http://www.tecmint.com/install-vlc-media-player-in-rhel-centos-fedora/
+https://fedoraproject.org/wiki/User_Guide_-_Managing_Software
 
 rpmfusion
 检查是否安装了
 yum repolist | grep rpmfusion 
 
+升级系统
+https://fedoraproject.org/wiki/DNF_system_upgrade
+https://fedoraproject.org/wiki/AutoUpdates
+安装软件
+dnf install xx
+dnf install -y xx
+/supplementary/命令
+  sudo dnf install xx
+  sudo dnf install -y xx
+  su -c 'dnf install stellarium'
+更新一个软件到新版本
+dnf upgrade xxx
+dnf group upgrade <group-spec>
+更新所有软件到新版本
+dnf upgrade
+https://fedoraproject.org/wiki/User_Guide_-_Managing_Software
 
+-
+
+小贴士1
+dnf info xx
+sudo dnf install xx
 
 
 -
