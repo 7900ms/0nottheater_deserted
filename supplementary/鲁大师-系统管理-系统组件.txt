@@ -3,7 +3,7 @@
 dnf upgrade --refresh (+N) [系统级]
 dnf clean metadata && dnf check-update [软件级]
 
-firefox vlc stellarium 
+firefox vlc stellarium mysql-server mysql
 
 安装软件
 dnf check-update
@@ -35,7 +35,7 @@ https://fedoraproject.org/wiki/User_Guide_-_Managing_Software
 https://fedoraproject.org/wiki/DNF_system_upgrade
 http://kb.parallels.com/cn/120327
 http://dnf.readthedocs.io/en/latest/user_faq.html
-
+https://www.liquidweb.com/kb/dnf-dandified-yum-command-examples-install-remove-upgrade-and-downgrade/
 
 
 = = = 碎碎念 = = =
