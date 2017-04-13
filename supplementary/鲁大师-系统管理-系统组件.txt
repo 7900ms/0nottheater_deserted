@@ -1,5 +1,5 @@
 
-系统组件
+系统组件/包管理
 
 查看软件信息
 
@@ -11,9 +11,41 @@
 
 查看list
 
+-
+
+检查可更新的套件
+
+yum check-update
+
+安装所有更新套件
+
+yum update
+
+-
+
+安装和卸载软件
+
+yum install [packagename]
+yum install -y xxx
+yum remove xxx
+yum remove -y xxx
+yum search xxx
+yum info xxx
+
+-
+
+
+
 = = = 碎碎念 = = =
+
+/supplementary/eg
+yum install php-mysq
 
 /supplementary/傲游
 fedora如何自动更新系统
 http://www.pczone.com.tw/vbb3/thread/41/102673/
+G yum install
+http://www.tecmint.com/20-linux-yum-yellowdog-updater-modified-commands-for-package-mangement/
+http://www.thegeekstuff.com/2011/08/yum-command-examples/
+
 
