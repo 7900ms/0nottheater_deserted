@@ -3,7 +3,7 @@
 dnf upgrade --refresh (+N) [系统级]
 dnf clean metadata && dnf check-update [软件级]
 
-firefox vlc stellarium mysql-server mysql audacious
+firefox vlc stellarium mysql-server mysql audacious mlocate
 
 安装软件
 dnf check-update
