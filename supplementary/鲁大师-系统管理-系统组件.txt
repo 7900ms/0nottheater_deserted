@@ -1,0 +1,19 @@
+
+系统组件
+
+查看软件信息
+
+安装软件
+
+卸载软件
+
+更新软件
+
+查看list
+
+= = = 碎碎念 = = =
+
+/supplementary/傲游
+fedora如何自动更新系统
+http://www.pczone.com.tw/vbb3/thread/41/102673/
+
