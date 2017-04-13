@@ -15,11 +15,12 @@
 
 检查可更新的套件
 
-yum check-update
+dnf check-update
+sudo dnf upgrade --refresh (+N)
 
 安装所有更新套件
 
-yum update
+dnf upgrade
 
 更新整个系统 (fedora 22 到 23)
 
@@ -82,6 +83,7 @@ rpmfusion
 yum repolist | grep rpmfusion 
 
 升级系统
+sudo dnf upgrade --refresh
 https://fedoraproject.org/wiki/DNF_system_upgrade
 https://fedoraproject.org/wiki/AutoUpdates
 安装软件
@@ -95,14 +97,35 @@ dnf install -y xx
 dnf upgrade xxx
 dnf group upgrade <group-spec>
 更新所有软件到新版本
-dnf upgrade
+sudo dnf upgrade
 https://fedoraproject.org/wiki/User_Guide_-_Managing_Software
 
 -
 
 /supplementary/桌面插件-小贴士-小贴士1
+dnf check-update
 dnf info xx
 sudo dnf install xx
+sudo dnf install -y xx
+sudo dnf remove xx
+
+/supplementary/桌面插件-小贴士-小贴士2
+sudo dnf upgrade
+(sudo dnf update)(废弃命令)
+(sudo dnf upgrade --refresh) 3个是一样
+
+/supplementary/桌面插件-小贴士-小贴士3
+dnf check-update
+dnf search stellarium
+dnf info stellarium
+sudo dnf install stellarium
+sudo dnf install -y stellarium
+sudo dnf remove stellarium
+sudo dnf upgrade stellarium(很少更新)
+sudo dnf group upgrade <group-spec>
+sudo dnf upgrade(不更新所有软件)
+sudo dnf upgrade --refresh (不更新系统)
+
 
 
 -
