@@ -3,7 +3,7 @@
 dnf upgrade --refresh (+N) [系统级]
 dnf clean metadata && dnf check-update [软件级]
 
-firefox vlc stellarium mysql-server mysql
+firefox vlc stellarium mysql-server mysql audacious
 
 安装软件
 dnf check-update
@@ -15,13 +15,16 @@ sudo dnf remove xxx
 
 安装软件组
 sudo dnf group install kde-desktop-environment
+sudo dnf install @kde-desktop-environment
 
 更新软件
 sudo dnf upgrade xxx
+sudo dnf upgrade-minimal xxx
 sudo dnf group upgrade <group-spec>
 
 查看list
 dnf list installed | grep xxx
+dnf group list
 
 系统升级(fedora22到23)
 sudo dnf upgrade
@@ -33,10 +36,16 @@ sudo dnf update (废弃) 和 sudo dnf upgrade 一样的
 /supplementary/傲游
 https://fedoraproject.org/wiki/User_Guide_-_Managing_Software
 https://fedoraproject.org/wiki/DNF_system_upgrade
+https://docs.fedoraproject.org/en-US/Fedora/24/html/System_Administrators_Guide/ch-DNF.html *
 http://kb.parallels.com/cn/120327
 http://dnf.readthedocs.io/en/latest/user_faq.html
-https://www.liquidweb.com/kb/dnf-dandified-yum-command-examples-install-remove-upgrade-and-downgrade/
+https://www.digitalocean.com/community/tags/fedora?type=tutorials
 
+https://www.liquidweb.com/kb/dnf-dandified-yum-command-examples-install-remove-upgrade-and-downgrade/
+旧http://www.tecmint.com/20-linux-yum-yellowdog-updater-modified-commands-for-package-mangement/
+http://www.thegeekstuff.com/2011/08/yum-command-examples/
+
+G dnf command fedora
 
 = = = 碎碎念 = = =
 
