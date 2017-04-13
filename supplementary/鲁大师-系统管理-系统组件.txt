@@ -100,7 +100,7 @@ https://fedoraproject.org/wiki/User_Guide_-_Managing_Software
 
 -
 
-/supplementary/小贴士1
+/supplementary/桌面插件-小贴士-小贴士1
 dnf info xx
 sudo dnf install xx
 
