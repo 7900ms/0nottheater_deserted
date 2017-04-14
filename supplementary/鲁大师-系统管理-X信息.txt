@@ -20,7 +20,15 @@ http://www.infoq.com/cn/news/2015/12/unix-se-2013-2015
 
 = = = 碎碎念 = = =
 
-有众多程序在电脑里，其中一种程序的用途是 “终端(terminal emulator)”
+Linux的程序都是二进制放在 /usr/bin 里
+/usr/bin/whoami
+/usr/bin/which
+/usr/bin/firefox
+/usr/bin/gedit
+/usr/bin/pwd
+/usr/bin/wget
+
+有众多程序(二进制程序)在电脑里，其中一种程序的用途是 “终端(terminal emulator)”
 mac:Terminal.app, iTerm.app
 win:PuTTY.exe
 Linux(包括ubuntu和fedora):Terminal, KDE Konsole, XTerm, GNOME Terminal
