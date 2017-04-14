@@ -106,4 +106,7 @@ http://forum.ubuntu.org.cn/viewtopic.php?t=143221
 https://www.reddit.com/r/Fedora/comments/3t8g47/best_terminal_emulator_for_fedora_23/
 https://www.reddit.com/r/archlinux/comments/45lkyj/is_new_always_better_urxvt_vs_xterm_tmux_vs/
 
+rxvt-unicode(urxvt) in daemon mode (urxvtc)
+
+
 -
