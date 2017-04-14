@@ -13,7 +13,7 @@ Window Manager
 Desktop Manager (or Desktop Environment)
 各种一般程序 (有界面的，而非命令行 如 firefox, Evolution邮件程序, gedit编辑器)
 各种一般程序 (没界面的，text-based的，如 mutt邮件程序, vi编辑器)
-各种一般程序 之 能和 shell 交互的程序 terminal emulator (iTerm, gnome-terminal)
+各种一般程序 之 能和 shell 交互的程序 terminal emulator (iTerm, gnome-terminal, xterm, rxvt)
 
 /supplementary/傲游
 G img x windows
@@ -63,7 +63,7 @@ Linux的程序都是二进制放在 /usr/bin 里
 有众多程序(二进制程序)在电脑里，其中一种程序的用途是 “终端(terminal emulator)” 。它是 X client
 mac:Terminal.app, iTerm.app
 win:PuTTY.exe
-Linux(包括ubuntu和fedora):Terminal, KDE Konsole, XTerm, GNOME Terminal
+Linux(包括ubuntu和fedora):Terminal, KDE Konsole, GNOME Terminal, rxvt, XTerm
 
 
 Desktop Env 附带的：
