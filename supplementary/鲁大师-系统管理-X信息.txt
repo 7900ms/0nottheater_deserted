@@ -88,4 +88,8 @@ https://www.v2ex.com/t/237225#linhua
 /supplementary/傲游
 site:v2ex.com/t terminator
 
+open source terminal emulator
+
+window manager terminal (without Desktop Env)
+
 -
