@@ -1,4 +1,13 @@
 
+Linux的程序都是二进制放在 /usr/bin 里
+/usr/bin/whoami
+/usr/bin/which
+/usr/bin/firefox
+/usr/bin/gedit
+/usr/bin/pwd
+/usr/bin/wget
+/usr/bin/gnome-system-monitor
+
 路径查看
 which xxxx
 
