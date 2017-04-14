@@ -20,8 +20,8 @@ http://www.infoq.com/cn/news/2015/12/unix-se-2013-2015
 
 = = = 碎碎念 = = =
 
-terminal emulator
+有众多程序在电脑里，其中一种程序的用途是 “终端(terminal emulator)”
 mac:Terminal.app, iTerm.app
-ubuntu:终端
-fedora:GNOME Terminal, xterm
+win:PuTTY.exe
+Linux(包括ubuntu和fedora):Terminal, KDE Konsole, XTerm, GNOME Terminal
 
