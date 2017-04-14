@@ -1,6 +1,6 @@
 
 一个程序：
-一个程序是：一个可执行程序，一个二进制文件
+一个程序是：一个可执行程序，一个二进制文件、一个 X-Client
 一个程序启动方式：executable 的启动就是作为 executable commands 启动
 谁 哪里的一个程序：$PATH 给不同用户
 怎用：带参数 配置文件位置
@@ -24,7 +24,7 @@ Linux的程序都是二进制放在 /usr/bin 里
 /usr/bin/gnome-shell
 /usr/bin/gnome-terminal
 /usr/bin/sudo
-大程序、小程序、桌面环境程序、图像查看程序、文本编辑器，cd命令、pwd命令、下载dnf命令、whoami命令、ssh命令、ps命令、sudo命令、nano命令，有无GUI 是否CLI 是否text-based，都是来自一个二进制程序，一个二进制文件
+大程序、小程序、桌面环境程序、图像查看程序、文本编辑器，cd命令、pwd命令、下载dnf命令、whoami命令、ssh命令、ps命令、sudo命令、nano命令，有无GUI 是否CLI 是否text-based，都是来自一个二进制程序，一个二进制文件 ———— 都是一个 X-Client
 
 启动的时候都是带参数启动的
 /usr/bin/wget -c /somewhere/config.json
