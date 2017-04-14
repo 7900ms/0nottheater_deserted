@@ -83,5 +83,6 @@ Desktop Env 附带的：
 
 一个组合：Window Manager + terminal emulator + shell + tmux (不开 X Window 不用 Desktop Env)
 awesome + st + tmux + zsh 
+https://www.v2ex.com/t/237225#linhua
 
 -
