@@ -1,1 +1,163 @@
 1
+[user7483@fedora0242 ~]$ cat parallels-tools-install.log 
+Last metadata expiration check: 0:57:40 ago on Fri Apr 14 16:11:49 2017.
+Dependencies resolved.
+================================================================================
+ Package   Arch        Version                               Repository    Size
+================================================================================
+Installing:
+ dkms      noarch      2.3-4.20170313git974d838.fc25         updates       82 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 82 k
+Installed size: 222 k
+Downloading Packages:
+--------------------------------------------------------------------------------
+Total                                            35 kB/s |  82 kB     00:02     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Installing  : dkms-2.3-4.20170313git974d838.fc25.noarch                   1/1 
+  Verifying   : dkms-2.3-4.20170313git974d838.fc25.noarch                   1/1 
+
+Installed:
+  dkms.noarch 2.3-4.20170313git974d838.fc25                                     
+
+Complete!
+2017-04-14T17:09:35+0800: execCmd: ./installer/pm.sh --install gtools --logfile /var/log/parallels-tools-install.log [0]
+Started installation of Parallels Guest Tools version '12.0.2.41353'
+
+Fri Apr 14 17:09:35 CST 2017
+Start installation or upgrade of Guest Tools
+new version of parallels tools
+Installed Guest Tools were not found
+Perform installation into the /usr/lib/parallels-tools directory
+cat: /usr/lib/parallels-tools/kmods/../version: No such file or directory
+Start installation of prl_eth kernel module
+make: Entering directory '/usr/lib/parallels-tools/kmods'
+cd prl_eth/pvmnet && make
+make[1]: Entering directory '/usr/lib/parallels-tools/kmods/prl_eth/pvmnet'
+make -C /lib/modules/4.10.8-200.fc25.x86_64/build M=/usr/lib/parallels-tools/kmods/prl_eth/pvmnet
+make[2]: Entering directory '/usr/src/kernels/4.10.8-200.fc25.x86_64'
+  LD      /usr/lib/parallels-tools/kmods/prl_eth/pvmnet/built-in.o
+  CC [M]  /usr/lib/parallels-tools/kmods/prl_eth/pvmnet/pvmnet.o
+  LD [M]  /usr/lib/parallels-tools/kmods/prl_eth/pvmnet/prl_eth.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /usr/lib/parallels-tools/kmods/prl_eth/pvmnet/prl_eth.mod.o
+  LD [M]  /usr/lib/parallels-tools/kmods/prl_eth/pvmnet/prl_eth.ko
+make[2]: Leaving directory '/usr/src/kernels/4.10.8-200.fc25.x86_64'
+make[1]: Leaving directory '/usr/lib/parallels-tools/kmods/prl_eth/pvmnet'
+cd prl_tg/Toolgate/Guest/Linux/prl_tg && make
+make[1]: Entering directory '/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg'
+make -C /lib/modules/4.10.8-200.fc25.x86_64/build SUBDIRS=/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg SRCROOT=/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg modules
+make[2]: Entering directory '/usr/src/kernels/4.10.8-200.fc25.x86_64'
+  CC [M]  /usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.o
+/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.c: In function ‘map_user_request’:
+/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.c:484:9: error: passing argument 5 of ‘get_user_pages’ from incompatible pointer type [-Werror=incompatible-pointer-types]
+         uple->p, NULL);
+         ^~~~
+In file included from ./include/linux/scatterlist.h:7:0,
+                 from ./include/linux/dmapool.h:14,
+                 from ./include/linux/pci.h:1286,
+                 from /usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.c:11:
+./include/linux/mm.h:1271:6: note: expected ‘struct vm_area_struct **’ but argument is of type ‘struct page **’
+ long get_user_pages(unsigned long start, unsigned long nr_pages,
+      ^~~~~~~~~~~~~~
+/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.c:481:8: error: too many arguments to function ‘get_user_pages’
+  got = get_user_pages(
+        ^~~~~~~~~~~~~~
+In file included from ./include/linux/scatterlist.h:7:0,
+                 from ./include/linux/dmapool.h:14,
+                 from ./include/linux/pci.h:1286,
+                 from /usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.c:11:
+./include/linux/mm.h:1271:6: note: declared here
+ long get_user_pages(unsigned long start, unsigned long nr_pages,
+      ^~~~~~~~~~~~~~
+cc1: some warnings being treated as errors
+scripts/Makefile.build:294: recipe for target '/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.o' failed
+make[3]: *** [/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.o] Error 1
+Makefile:1494: recipe for target '_module_/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg' failed
+make[2]: *** [_module_/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg] Error 2
+make[2]: Leaving directory '/usr/src/kernels/4.10.8-200.fc25.x86_64'
+/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/Makefile.v26:23: recipe for target 'prl_tg' failed
+make[1]: *** [prl_tg] Error 2
+make[1]: Leaving directory '/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg'
+Makefile.kmods:34: recipe for target 'installme' failed
+make: *** [installme] Error 2
+make: Leaving directory '/usr/lib/parallels-tools/kmods'
+Error: could not build kernel modules
+Error: failed to install kernel modules
+2017-04-14T17:09:38+0800: execCmd: ./install --install [143]
+2017-04-14T17:09:38+0800: Error: An error occurred when installing Parallels Tools. Please go to /var/log/parallels-tools-install.log for more information.
+2017-04-14T17:10:11+0800: Exiting with code 1
+Started installation of Parallels Guest Tools version '12.0.2.41353'
+
+Fri Apr 14 17:25:21 CST 2017
+Start installation or upgrade of Guest Tools
+new version of parallels tools
+Installed Guest Tools were not found
+Perform installation into the /usr/lib/parallels-tools directory
+cat: /usr/lib/parallels-tools/kmods/../version: No such file or directory
+Start installation of prl_eth kernel module
+make: Entering directory '/usr/lib/parallels-tools/kmods'
+cd prl_eth/pvmnet && make
+make[1]: Entering directory '/usr/lib/parallels-tools/kmods/prl_eth/pvmnet'
+make -C /lib/modules/4.10.8-200.fc25.x86_64/build M=/usr/lib/parallels-tools/kmods/prl_eth/pvmnet
+make[2]: Entering directory '/usr/src/kernels/4.10.8-200.fc25.x86_64'
+  LD      /usr/lib/parallels-tools/kmods/prl_eth/pvmnet/built-in.o
+  CC [M]  /usr/lib/parallels-tools/kmods/prl_eth/pvmnet/pvmnet.o
+  LD [M]  /usr/lib/parallels-tools/kmods/prl_eth/pvmnet/prl_eth.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /usr/lib/parallels-tools/kmods/prl_eth/pvmnet/prl_eth.mod.o
+  LD [M]  /usr/lib/parallels-tools/kmods/prl_eth/pvmnet/prl_eth.ko
+make[2]: Leaving directory '/usr/src/kernels/4.10.8-200.fc25.x86_64'
+make[1]: Leaving directory '/usr/lib/parallels-tools/kmods/prl_eth/pvmnet'
+cd prl_tg/Toolgate/Guest/Linux/prl_tg && make
+make[1]: Entering directory '/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg'
+make -C /lib/modules/4.10.8-200.fc25.x86_64/build SUBDIRS=/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg SRCROOT=/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg modules
+make[2]: Entering directory '/usr/src/kernels/4.10.8-200.fc25.x86_64'
+  CC [M]  /usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.o
+/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.c: In function 'map_user_request':
+/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.c:484:9: error: passing argument 5 of 'get_user_pages' from incompatible pointer type [-Werror=incompatible-pointer-types]
+         uple->p, NULL);
+         ^~~~
+In file included from ./include/linux/scatterlist.h:7:0,
+                 from ./include/linux/dmapool.h:14,
+                 from ./include/linux/pci.h:1286,
+                 from /usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.c:11:
+./include/linux/mm.h:1271:6: note: expected 'struct vm_area_struct **' but argument is of type 'struct page **'
+ long get_user_pages(unsigned long start, unsigned long nr_pages,
+      ^~~~~~~~~~~~~~
+/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.c:481:8: error: too many arguments to function 'get_user_pages'
+  got = get_user_pages(
+        ^~~~~~~~~~~~~~
+In file included from ./include/linux/scatterlist.h:7:0,
+                 from ./include/linux/dmapool.h:14,
+                 from ./include/linux/pci.h:1286,
+                 from /usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.c:11:
+./include/linux/mm.h:1271:6: note: declared here
+ long get_user_pages(unsigned long start, unsigned long nr_pages,
+      ^~~~~~~~~~~~~~
+cc1: some warnings being treated as errors
+scripts/Makefile.build:294: recipe for target '/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.o' failed
+make[3]: *** [/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/prltg.o] Error 1
+Makefile:1494: recipe for target '_module_/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg' failed
+make[2]: *** [_module_/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg] Error 2
+make[2]: Leaving directory '/usr/src/kernels/4.10.8-200.fc25.x86_64'
+/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg/Makefile.v26:23: recipe for target 'prl_tg' failed
+make[1]: *** [prl_tg] Error 2
+make[1]: Leaving directory '/usr/lib/parallels-tools/kmods/prl_tg/Toolgate/Guest/Linux/prl_tg'
+Makefile.kmods:34: recipe for target 'installme' failed
+make: *** [installme] Error 2
+make: Leaving directory '/usr/lib/parallels-tools/kmods'
+Error: could not build kernel modules
+Error: failed to install kernel modules
+Error: failed to install Parallels Guest Tools!
+Please, look at /var/log/parallels-tools-install.log file for more information.
