@@ -1,0 +1,3 @@
+
+#
+http://stephane.lesimple.fr/wiki/config_urxvt
