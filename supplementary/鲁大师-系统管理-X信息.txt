@@ -44,6 +44,7 @@ awesome, fvwm
 ... 有 xterm ，后来安了很多应用程序
 ... 安装了 X 和 GNOME (一个桌面管理器+窗口管理器) ，但更多时候是用 一个能和 shell 交互的一般程序 来办公 (采用一个一般程序的文本模式 而不是用应用程序)
 ... 用 xterm 来工作，用 /usr/bin/netscape (一个一般程序) 来浏览网页
+... Linux、一个终端模拟器 如 xterm、一个浏览器
 http://www.infoq.com/cn/news/2015/12/unix-se-2013-2015
 
 = = = 碎碎念 = = =
