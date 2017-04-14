@@ -91,6 +91,7 @@ site:v2ex.com/t terminator
 open source terminal emulator
 
 window manager terminal (without Desktop Env, 那么 终端的配置界面也是 text-based --能贴出自己的配置的 比如 urxvt xterm)
-(排除 Terminator-GUI配置的、)
+(排除 Terminator tilda guake - 用GUI配置首选项的、)
+(保留 xterm/urxvt)
 
 -
