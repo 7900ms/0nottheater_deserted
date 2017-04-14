@@ -9,6 +9,7 @@ Linux的程序都是二进制放在 /usr/bin 里
 /usr/bin/whoami
 /usr/bin/which
 /usr/bin/firefox
+/usr/bin/rhythmbox
 /usr/bin/evolution (一个一般程序，GUI的邮件程序)
 /usr/bin/mutt (一个一般程序，text-based的邮件程序)
 /usr/bin/gedit
@@ -70,6 +71,12 @@ which
 Firefox：
 firefox
 /usr/bin/firefox
+(locate firefox)
+/usr/lib64/firefox/ (程序本身)
+~/.mozilla/firefox/profiles.ini
+~/.mozilla/firefox/fmwuio07.default/** (一个profile)
+/usr/share/applications/firefox.desktop (软件配置和启动参数)
+/usr/share/appdata/firefox.appdata.xml (软件描述)
 
 GNOME Terminal：
 gnome-terminal
@@ -79,10 +86,18 @@ GEdit:
 gedit
 /usr/bin/gedit
 /usr/share/gedit
+/usr/lib64/gedit
+/usr/share/appdata/org.gnome.gedit.appdata.xml (软件描述)
+/usr/share/applications/org.gnome.gedit.desktop (软件配置和启动参数)
 
 Anaconda:
 anaconda
 /usr/bin/anaconda
 /usr/share/anaconda
+
+Rhythmbox:
+rhythmbox
+/usr/bin/rhythmbox
+/usr/share/rhythmbox
 
 -
