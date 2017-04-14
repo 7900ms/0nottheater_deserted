@@ -78,6 +78,11 @@ gnome-terminal
 GEdit:
 gedit
 /usr/bin/gedit
+/usr/share/gedit
 
+Anaconda:
+anaconda
+/usr/bin/anaconda
+/usr/share/anaconda
 
 -
