@@ -1,0 +1,18 @@
+
+X Window System 信息
+xdpyinfo | grep version
+
+If you want a graphical desktop environment, then you need to install X Window system and then install GNOME or KDE
+
+desktop environment 信息
+gnome-about
+gnome-session --version
+
+
+
+xterm
+
+
+窗口管理器 awesome, fvwm
+
+
