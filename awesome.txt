@@ -1,1 +1,7 @@
 
+awesome
+
+awesome + urxvt
+
+Most display managers will load ~/.Xresources automatically.
+https://superuser.com/questions/718727/how-to-load-xresources-when-starting-x
