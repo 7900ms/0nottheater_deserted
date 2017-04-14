@@ -27,6 +27,7 @@ If you want a graphical desktop environment, then you need to install X Window s
 
 X Client 之 desktop environment 信息
 cat /usr/share/gnome/gnome-version.xml #=> 3.20.2
+/usr/bin/gnome-shell --version #=> 3.20.2
 (KDE, GNOME2~MATE)
 
 
