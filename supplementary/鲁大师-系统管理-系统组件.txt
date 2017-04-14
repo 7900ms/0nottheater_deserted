@@ -44,6 +44,7 @@ sudo dnf install kernel-devel kernel-devel-$(uname -r) kernel-headers-$(uname -r
 /supplementary/系统插件-小贴士-小贴士3
 升级系统
 G fedora upgrade 24 to 25
+sudo dnf system-upgrade download --releasever=25
 https://fedoramagazine.org/upgrading-fedora-24-fedora-25/
 
 /supplementary/傲游
