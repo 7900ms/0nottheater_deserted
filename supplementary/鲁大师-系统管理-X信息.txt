@@ -1,4 +1,9 @@
 
+X Window System 原理：
+X Server 向上：键盘、鼠标
+向下：浏览器程序、终端程序、游戏程序等一切“有界面的程序”
+https://en.wikipedia.org/wiki/X_Window_System_protocols_and_architecture
+
 X Window System 信息
 xdpyinfo | grep version
 
@@ -30,7 +35,7 @@ Linux的程序都是二进制放在 /usr/bin 里
 /usr/bin/gnome-system-monitor
 /usr/bin/gnome-terminal
 
-有众多程序(二进制程序)在电脑里，其中一种程序的用途是 “终端(terminal emulator)”
+有众多程序(二进制程序)在电脑里，其中一种程序的用途是 “终端(terminal emulator)” 。它是 X client
 mac:Terminal.app, iTerm.app
 win:PuTTY.exe
 Linux(包括ubuntu和fedora):Terminal, KDE Konsole, XTerm, GNOME Terminal
