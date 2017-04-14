@@ -27,7 +27,8 @@ sudo dnf group upgrade <group-spec>
 dnf list installed | grep xxx
 dnf group list
 
-系统升级(fedora22到23,linux内核4.8.6到4.10.8,firefox48到52,vlc2版本到3不稳定版本)
+系统升级(fedora22到25,linux内核4.8.6到4.10.8,firefox48到52,vlc2版本到3不稳定版本)
+(! PD12支持fedora24)
 sudo dnf upgrade
 sudo dnf upgrade --refresh
 
@@ -42,10 +43,9 @@ sudo dnf install kernel-devel kernel-devel-$(uname -r) kernel-headers-$(uname -r
 https://fedoraproject.org/wiki/User_Guide_-_Managing_Software
 https://fedoraproject.org/wiki/DNF_system_upgrade
 https://docs.fedoraproject.org/en-US/Fedora/24/html/System_Administrators_Guide/ch-DNF.html *
-http://kb.parallels.com/cn/120327
-http://kb.parallels.com/cn/118876 *
 http://dnf.readthedocs.io/en/latest/user_faq.html
 https://www.digitalocean.com/community/tags/fedora?type=tutorials
+[PD12支持fedora24](https://github.com/7900ms/0nottheater_deserted/blob/master/small/ParallelsDesktop.txt)
 
 https://www.liquidweb.com/kb/dnf-dandified-yum-command-examples-install-remove-upgrade-and-downgrade/
 旧http://www.tecmint.com/20-linux-yum-yellowdog-updater-modified-commands-for-package-mangement/
