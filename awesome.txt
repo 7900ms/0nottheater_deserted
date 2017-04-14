@@ -15,3 +15,13 @@ https://superuser.com/questions/718727/how-to-load-xresources-when-starting-x
 
 https://linuxtoy.org/archives/awesome.html
 https://www.linuxzen.com/awesometmuxgnomedoda-zao-gao-xiao-linuxzhuo-mian-huan-jing.html
+
+
+-
+
+
+awesome + lua
+xmonad + Haskell
+i3 ++ i3-gaps
+fvwm
+https://sinister.ly/Thread-Tutorial-The-Lazy-Man-s-Guide-to-Ricing-Linux-WM-i3
