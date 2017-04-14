@@ -2,15 +2,10 @@
 vi 保存并退出
 
 关闭
-:q
-强制关闭
-:q!
+:q (:q!)
 
 保存
-:w
-
-保存并关闭
-:wq
+:w (:wq)
 
 /supplementary/傲游
 http://pizn.github.io/2012/03/03/vim-commonly-used-command.html
