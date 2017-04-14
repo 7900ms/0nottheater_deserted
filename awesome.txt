@@ -27,5 +27,5 @@ i3 ++ i3-gaps
 fvwm
 https://sinister.ly/Thread-Tutorial-The-Lazy-Man-s-Guide-to-Ricing-Linux-WM-i3
 https://wiki.archlinux.org/index.php/Comparison_of_tiling_window_managers
-
+https://wiki.archlinux.org/index.php/window_manager
 -
