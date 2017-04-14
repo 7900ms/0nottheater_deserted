@@ -10,7 +10,7 @@ https://en.wikipedia.org/wiki/X_Window_System_protocols_and_architecture
 
 X Client：
 Window Manager
-Desktop Manager (desktop environment)
+Desktop Manager (or Desktop Environment)
 各种一般程序 (有界面的，而非命令行 如 firefox)
 各种一般程序 之 能和 shell 交互的程序 terminal emulator (iTerm, gnome-terminal)
 
@@ -34,9 +34,10 @@ gnome-session --version
 xterm
 
 
-窗口管理器
-The Window Manager (and Desktop Manager, if any) communicate with X-Windows (Server) to perform their functions.
+X Client 之 Window Manager 窗口管理器
+“The Window Manager (and Desktop Manager, if any) communicate with X-Windows (Server) to perform their functions. The Window Manager provides on-screen controls for manipulating the windows. It may also perform other helpful functions. The Desktop Manager (or Desktop Environment) provides shell-like functions for the user to use to manipulate the computer.  It does not perform windowing functions;  it relies on a Window Manager to do this. ”
 http://www.csit.parkland.edu/~smauney/csc128/x-windows_diagram.html
+
 awesome, fvwm
 
 
