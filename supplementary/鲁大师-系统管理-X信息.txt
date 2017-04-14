@@ -104,5 +104,6 @@ http://ljgabc.github.io/2012/10/07/2012-10-07-Xterm配置文件/
 https://github.com/bluezd/Fedora/blob/master/rxvt-unicode/.Xdefaults
 http://forum.ubuntu.org.cn/viewtopic.php?t=143221
 https://www.reddit.com/r/Fedora/comments/3t8g47/best_terminal_emulator_for_fedora_23/
+https://www.reddit.com/r/archlinux/comments/45lkyj/is_new_always_better_urxvt_vs_xterm_tmux_vs/
 
 -
