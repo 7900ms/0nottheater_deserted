@@ -66,11 +66,13 @@ Linux(包括ubuntu和fedora):Terminal, KDE Konsole, XTerm, GNOME Terminal
 
 
 Desktop Env 附带的：
-终端、字体、任务管理器
+终端、字体、任务管理器、资源管理器、图像查看器，一整套和 Desktop Env 相关的东西
 /usr/bin/gnome-session
 /usr/bin/gnome-shell
 /usr/bin/gnome-terminal
 /usr/bin/gnome-system-monitor
 /usr/bin/gnome-screenshot
+/usr/bin/nautilus
+/usr/bin/eog
 
 -
