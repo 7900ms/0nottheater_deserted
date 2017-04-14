@@ -1,6 +1,6 @@
 
 urxvt
-https://www.youtube.com/watch?v=_kjbj-Ez1vU
+
 sudo dnf install rxvt-unicode
 /usr/bin/urxvt
 
@@ -12,6 +12,10 @@ cp /etc/X11/xinit/xinitrc ~/.xinitrc
 
 /supplementary/手动更新
 xrdb ~/.Xresources
+
+https://wiki.archlinux.org/index.php/rxvt-unicode
+https://www.youtube.com/watch?v=_kjbj-Ez1vU
+
 
 = = = 碎碎念 = = =
 
