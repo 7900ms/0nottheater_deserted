@@ -7,3 +7,21 @@ sudo dnf install rxvt-unicode
 (不需要 ~/.Xresources)
 
 xrdb -load ~/.Xdefaults
+
+
+= = = 碎碎念 = = =
+
+G
+xrdb .xresources
+
+xrdb
+
+When you start X using a custom xinitrc, you need to specify X config files to be loaded. Otherwise you'll be presented with the plain default look & feel.
+
+https://bbs.archlinux.org/viewtopic.php?id=167077
+
+Most display managers will load ~/.Xresources automatically.
+
+https://superuser.com/questions/718727/how-to-load-xresources-when-starting-x
+
+=
