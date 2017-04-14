@@ -81,9 +81,11 @@ Desktop Env 附带的：
 
 -
 
-一个组合：Window Manager + terminal emulator + shell + tmux (不开 X Window 不用 Desktop Env)
+《一个组合》：Window Manager + terminal emulator + shell + tmux (不开 X Window 不用 Desktop Env、去DesktopEnv)
 awesome + st + tmux + zsh 
 https://www.v2ex.com/t/237225#linhua
+awesome(rc.lua)
+https://github.com/bluezd/Fedora/blob/master/rxvt-unicode/usage
 
 /supplementary/傲游
 site:v2ex.com/t terminator
@@ -95,10 +97,11 @@ window manager terminal (without Desktop Env, 那么 终端的配置界面也是
 (保留 xterm/urxvt)
 
 选择的原则：
-可搭配 WindowManager、去DesktopEnv、主要是文本配置、没有 GUI (如何支持profile切换) 、支持powerline
+合乎《一个组合》、主要是文本配置、没有 GUI (如何支持profile切换) 、支持powerline
 /supplementary/傲游
 G urxvt fedora
 http://ljgabc.github.io/2012/10/07/2012-10-07-Xterm配置文件/
+https://github.com/bluezd/Fedora/blob/master/rxvt-unicode/.Xdefaults
 http://forum.ubuntu.org.cn/viewtopic.php?t=143221
 https://www.reddit.com/r/Fedora/comments/3t8g47/best_terminal_emulator_for_fedora_23/
 
