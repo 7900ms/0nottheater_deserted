@@ -27,7 +27,7 @@ sudo dnf group upgrade <group-spec>
 dnf list installed | grep xxx
 dnf group list
 
-系统升级(fedora22到23)
+系统升级(fedora22到23,linux内核4.8.7到4.10.8,firefox48到52,vlc2版本到3不稳定版本)
 sudo dnf upgrade
 sudo dnf upgrade --refresh
 
