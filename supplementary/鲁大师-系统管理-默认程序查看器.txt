@@ -41,6 +41,11 @@ user7483 $ echo $PATH
 su # echo $PATH
 /sbin:/bin:/usr/sbin:/usr/bin
 
+说明：
+/bin只是一个快捷方式(软链接), 东西都在 /usr/bin 里
+/bin -> /usr/bin
+/sbin -> /usr/sbin
+
 - - -
 
 whoami:
