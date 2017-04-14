@@ -1,6 +1,6 @@
 
 urxvt
-
+https://www.youtube.com/watch?v=_kjbj-Ez1vU
 sudo dnf install rxvt-unicode
 /usr/bin/urxvt
 
