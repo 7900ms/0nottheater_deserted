@@ -16,3 +16,12 @@ xterm
 窗口管理器 awesome, fvwm
 
 
+http://www.infoq.com/cn/news/2015/12/unix-se-2013-2015
+
+= = = 碎碎念 = = =
+
+terminal emulator
+mac:Terminal.app, iTerm.app
+ubuntu:终端
+fedora:GNOME Terminal
+xterm
