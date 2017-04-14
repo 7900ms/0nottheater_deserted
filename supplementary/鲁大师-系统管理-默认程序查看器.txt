@@ -1,0 +1,9 @@
+
+firefox
+
+GNOME Terminal
+
+TextEditor
+
+
+-
