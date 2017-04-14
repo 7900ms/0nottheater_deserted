@@ -1,9 +1,28 @@
 
+路径查看
+which xxxx
+
+- - -
+
+whoami:
+whoami
+/usr/bin/whoami
+
+which:
+which
+/usr/bin/which
+
+Firefox：
 firefox
+/usr/bin/firefox
 
-GNOME Terminal
+GNOME Terminal：
+gnome-terminal
+/usr/bin/gnome-terminal
 
-TextEditor
+GEdit:
+gedit
+/usr/bin/gedit
 
 
 -
