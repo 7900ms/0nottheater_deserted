@@ -5,6 +5,10 @@ sudo dnf install awesome
 
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
 
+fvwm
+https://www.youtube.com/watch?v=yOwjqsZuJR0
+i3
+https://www.youtube.com/watch?v=j1I63wGcvU4
 
 ==
 
