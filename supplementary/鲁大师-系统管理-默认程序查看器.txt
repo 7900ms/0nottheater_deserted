@@ -7,9 +7,11 @@ Linux的程序都是二进制放在 /usr/bin 里
 /usr/bin/pwd
 /usr/bin/wget
 /usr/bin/gnome-system-monitor
+/usr/bin/gnome-terminal
 
 启动的时候都是带参数启动的
 /usr/bin/wget -c /somewhere/config.json
+/usr/bin/gnome-terminal -c /somewhere/config.json -w 1
 
 路径查看
 which xxxx
