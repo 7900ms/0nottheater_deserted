@@ -36,7 +36,7 @@ sudo dnf update (废弃) 和 sudo dnf upgrade 一样的
 
 /supplementary/系统插件-小贴士-小贴士2
 必备软件 build-essential
-sudo dnf install kernel-devel kernel-devel-$(uname -r) kernel-headers-$(uname -r) make automake gcc gcc-c++
+sudo dnf install kernel-devel kernel-devel-$(uname -r) kernel-headers-$(uname -r) dkms selinux-policy-devel checkpolicy make automake gcc gcc-c++
 
 /supplementary/傲游
 https://fedoraproject.org/wiki/User_Guide_-_Managing_Software
