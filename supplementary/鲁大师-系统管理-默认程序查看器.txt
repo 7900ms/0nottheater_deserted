@@ -68,6 +68,12 @@ which:
 which
 /usr/bin/which
 
+Rhythmbox:
+rhythmbox
+/usr/bin/rhythmbox
+/usr/share/rhythmbox
+/usr/lib64/rhythmbox
+
 Firefox：
 firefox
 /usr/bin/firefox
@@ -95,9 +101,6 @@ anaconda
 /usr/bin/anaconda
 /usr/share/anaconda
 
-Rhythmbox:
-rhythmbox
-/usr/bin/rhythmbox
-/usr/share/rhythmbox
+
 
 -
