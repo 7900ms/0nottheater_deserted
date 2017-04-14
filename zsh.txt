@@ -19,7 +19,7 @@ nano ~/.zshrc & source ~/.zshrc
 ZSH_THEME="agnoster"
 DISABLE_AUTO_UPDATE="true"
 plugins=(git bundler osx rake ruby)
-plugins=(git bower sublime brew history node npm sudo web-search)
+plugins=(git bower sublime brew history node npm sudo web-search fedora)
 
 ## 1st
 DEFAULT_USER=`whoami`
