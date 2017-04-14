@@ -1,5 +1,7 @@
-1
-[user7483@fedora0242 ~]$ cat parallels-tools-install.log 
+安装 parallels-tools 出错原因
+PD12仅支持fedora24
+= = =
+[user7483@fedora0242 ~]$ cat /var/log/parallels-tools-install.log 
 Last metadata expiration check: 0:57:40 ago on Fri Apr 14 16:11:49 2017.
 Dependencies resolved.
 ================================================================================
