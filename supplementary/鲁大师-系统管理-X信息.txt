@@ -7,7 +7,7 @@ If you want a graphical desktop environment, then you need to install X Window s
 desktop environment 信息
 gnome-about
 gnome-session --version
-
+(KDE, GNOME2~MATE)
 
 
 xterm
