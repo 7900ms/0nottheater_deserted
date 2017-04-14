@@ -1,0 +1,8 @@
+
+Parallels Desktop 12 (fedora 24)
+
+http://download.parallels.com/desktop/v12/docs/en_US/Parallels%20Desktop%20User's%20Guide/33321.htm
+
+Parallels Tools
+http://kb.parallels.com/cn/120327
+http://kb.parallels.com/cn/118876 *
