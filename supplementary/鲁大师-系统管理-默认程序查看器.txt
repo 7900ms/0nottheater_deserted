@@ -1,4 +1,6 @@
 
+一个程序：谁 哪里的程序 怎用
+
 Linux的程序都是二进制放在 /usr/bin 里
 /usr/bin/whoami
 /usr/bin/which
@@ -30,6 +32,11 @@ Linux的程序都是二进制放在 /usr/bin 里
 echo $PATH
 which xxxx
 
+说明：不同的用户，用到的不一样
+user7483 $ echo $PATH
+/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/user7483/.local/bin:/home/user7483/bin
+su # echo $PATH
+/sbin:/bin:/usr/sbin:/usr/bin
 
 - - -
 
