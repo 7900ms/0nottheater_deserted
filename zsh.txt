@@ -1,0 +1,28 @@
+
+zsh
+
+检查区
+
+/usr/bin/zsh
+/usr/share/zsh
+
+配置区
+sudo dnf install util-linux-user
+sudo dnf install -y zsh
+chsh -s $(which zsh) $(whoami)
+echo "#" >> ~/.bash_profile
+重启，ssh 进入 zsh 选零
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+nano ~/.zshrc & source ~/.zshrc
+```
+ZSH_THEME="agnoster"
+DISABLE_AUTO_UPDATE="true"
+plugins=(git bundler osx rake ruby)
+plugins=(git bower sublime brew history node npm sudo web-search)
+
+## 1st
+DEFAULT_USER=`whoami`
+TZ='Asia/Hong_Kong'; export TZ
+source ~/.bash_profile
+
+-
