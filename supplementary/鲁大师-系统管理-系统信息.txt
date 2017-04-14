@@ -1,6 +1,6 @@
 
 fedora系统版本(25)
-cat /etc/fedora-release
+cat /etc/os-release
 
 系统信息
 uname -a
