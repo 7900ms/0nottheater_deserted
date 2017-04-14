@@ -20,7 +20,7 @@ https://www.linuxzen.com/awesometmuxgnomedoda-zao-gao-xiao-linuxzhuo-mian-huan-j
 -
 
 
-awesome + lua
+awesome + lua (awesome window manager 3.4 3.5 不兼容)
 xmonad + Haskell
 i3 ++ i3-gaps
 fvwm
