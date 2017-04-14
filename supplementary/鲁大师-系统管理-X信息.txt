@@ -23,5 +23,5 @@ http://www.infoq.com/cn/news/2015/12/unix-se-2013-2015
 terminal emulator
 mac:Terminal.app, iTerm.app
 ubuntu:终端
-fedora:GNOME Terminal
-xterm
+fedora:GNOME Terminal, xterm
+
