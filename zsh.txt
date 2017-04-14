@@ -10,6 +10,7 @@ zsh
 sudo dnf install util-linux-user
 sudo dnf install -y zsh
 chsh -s $(which zsh) $(whoami)
+// 改回默认bash：sudo chsh -s $(which bash) $(whoami)
 echo "#" >> ~/.bash_profile
 重启，ssh 进入 zsh 选零
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
