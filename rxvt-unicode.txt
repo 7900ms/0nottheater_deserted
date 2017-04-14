@@ -16,12 +16,14 @@ xrdb .xresources
 
 xrdb
 
-When you start X using a custom xinitrc, you need to specify X config files to be loaded. Otherwise you'll be presented with the plain default look & feel.
+When you start X using a custom xinitrc, you need to specify X config files to be loaded. Otherwise you'll be presented with the plain default look & feel. <xinitrc>
 
 https://bbs.archlinux.org/viewtopic.php?id=167077
 
 Most display managers will load ~/.Xresources automatically.
 
 https://superuser.com/questions/718727/how-to-load-xresources-when-starting-x
+
+https://wiki.archlinux.org/index.php/x_resources
 
 =
