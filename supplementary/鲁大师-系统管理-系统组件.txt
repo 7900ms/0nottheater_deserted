@@ -27,10 +27,10 @@ sudo dnf group upgrade <group-spec>
 dnf list installed | grep xxx
 dnf group list
 
-所有组件升级，系统版本不变(内核+软件升级，linux内核4.8.6到4.10.8,firefox48到52,vlc2版本到3不稳定版本)
+所有组件更新，系统不升级(内核更新+软件更新，linux内核4.8.6到4.10.8,firefox48到52,vlc2版本到3不稳定版本)
 sudo dnf upgrade --refresh
 
-系统升级(fedora24到25)
+升级系统(fedora24到25)
 (! PD12支持fedora24)
 一般不做。
 
@@ -42,7 +42,7 @@ sudo dnf update (废弃) 和 sudo dnf upgrade 一样的
 sudo dnf install kernel-devel kernel-devel-$(uname -r) kernel-headers-$(uname -r) dkms selinux-policy-devel checkpolicy make automake gcc gcc-c++
 
 /supplementary/系统插件-小贴士-小贴士3
-系统升级
+升级系统
 G fedora upgrade 24 to 25
 https://fedoramagazine.org/upgrading-fedora-24-fedora-25/
 
