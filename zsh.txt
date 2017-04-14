@@ -25,5 +25,17 @@ plugins=(git bower sublime brew history node npm sudo web-search)
 DEFAULT_USER=`whoami`
 TZ='Asia/Hong_Kong'; export TZ
 source ~/.bash_profile
+```
 
 -
+
+字体配置区
+
+cd ~/tmp
+git clone https://github.com/powerline/fonts.git
+cd ~/tmp/fonts
+./install.sh
+安在了 ~/.local/share/fonts
+打开 gnome-terminal 偏好设置 - 描述文件 - 文本 - 字体 Meslo LG S DZ Regular for Powerline
+
+
