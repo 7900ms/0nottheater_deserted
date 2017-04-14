@@ -22,6 +22,7 @@ https://www.linuxzen.com/awesometmuxgnomedoda-zao-gao-xiao-linuxzhuo-mian-huan-j
 
 awesome + lua (awesome window manager 3.4 3.5 不兼容)
 xmonad + Haskell
+(卡掉 awesome, xmonad )
 i3 ++ i3-gaps
 fvwm
 https://sinister.ly/Thread-Tutorial-The-Lazy-Man-s-Guide-to-Ricing-Linux-WM-i3
