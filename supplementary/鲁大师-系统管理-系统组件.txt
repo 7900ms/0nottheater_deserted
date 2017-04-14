@@ -3,6 +3,7 @@
 (dnf clean metadata)
 sudo dnf upgrade --refresh (+N) [系统级]
 dnf check-update [软件级]
+检查: dnf info firefox
 
 firefox vlc stellarium mysql-server mysql audacious mlocate
 
