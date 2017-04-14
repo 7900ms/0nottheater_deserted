@@ -4,7 +4,7 @@ vi 保存并退出
 关闭
 :q (:q!)
 
-保存
+写入
 :w (:wq)
 
 /supplementary/傲游
