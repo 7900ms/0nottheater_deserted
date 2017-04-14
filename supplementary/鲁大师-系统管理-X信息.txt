@@ -85,4 +85,7 @@ Desktop Env 附带的：
 awesome + st + tmux + zsh 
 https://www.v2ex.com/t/237225#linhua
 
+/supplementary/傲游
+site:v2ex.com/t terminator
+
 -
