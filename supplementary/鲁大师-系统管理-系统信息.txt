@@ -1,0 +1,16 @@
+
+系统信息
+uname -a
+
+fedora版本
+head -n 1 /etc/issue
+
+内核版本
+cat /proc/version
+
+64位系统
+getconf LONG_BIT
+
+GCC版本
+
+-
