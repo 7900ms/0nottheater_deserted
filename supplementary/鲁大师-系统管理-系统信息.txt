@@ -1,20 +1,24 @@
 
+fedora系统版本(25)
+cat /etc/fedora-release
+
 系统信息
 uname -a
 
-fedora版本
-head -n 1 /etc/issue
-
-内核版本
-cat /proc/version
+内核信息
+uname -r
 
 64位系统
 getconf LONG_BIT
 
 GCC版本
-
+gcc -v
 
 SELinux状态
 /boot/grub2/grub.cfg 找到 $(uname -a)
 (/boot/grub/grub.conf file or /boot/grub/menu.lst)
 
+G Parallel tools support kernels
+http://download.parallels.com/desktop/v6/docs/en/Parallels_Desktop_Users_Guide/22570.htm
+
+-
