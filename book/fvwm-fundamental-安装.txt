@@ -22,4 +22,13 @@ URxvt.font: xft:monospace:size=16
 > xrdb ~/.Xresources
 urxvt 改变了样子
 
+3.
+写 ~/.Xresources 配置
 
+4.
+让 X 自动载入
+
+vi ~/.xinitrc
+
+
+-
