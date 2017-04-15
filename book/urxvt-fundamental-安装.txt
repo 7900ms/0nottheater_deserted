@@ -34,7 +34,11 @@ urxvt -fn "xft:Meslo LG S DZ for Powerline:style=Regular:size=14:antialias=true"
 
 vi ~/.Xresources
 ```
-URxvt.font: xft:monospace:size=16:antialias=true
+URxvt.font: xft:Monospace:style=Regular:size=14:antialias=true
+URxvt.scrollBar:True
+URxvt.scrollBar_right:True
+URxvt.scrollBar_floating:False
+URxvt.scrollstyle:plain
 ```
 
 生效
