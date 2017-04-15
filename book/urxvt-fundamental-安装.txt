@@ -4,3 +4,9 @@ urxvt
 sudo dnf install rxvt-unicode
 /usr/bin/urxvt
 
+测试
+
+urxvt
+
+配置
+见 fvwm
