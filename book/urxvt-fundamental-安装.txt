@@ -60,6 +60,8 @@ urxvt --help 2>&1| grep scroll
 https://wiki.archlinux.org/index.php/rxvt-unicode
 https://wiki.gentoo.org/wiki/Rxvt-unicode
 https://github.com/bookercodes/awesome-urxvt
+https://linux.die.net/man/1/urxvt
+http://www.askapache.com/linux/rxvt-xresources/
 
 参考区2:
 urxvt会按照 X 的配置来运行。X 的配置 见 fvwm
