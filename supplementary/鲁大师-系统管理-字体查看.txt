@@ -11,3 +11,8 @@ fc-list
 让新字体生效
 fc-cache -v
 
+字体测试
+urxvt -fn "xft:Ubuntu Mono:size=14"
+urxvt -fn "xft:monospace:size=14:antialias=true"
+urxvt -fn "xft:Meslo LG S DZ for Powerline:style=Regular:size=14:antialias=true"
+
