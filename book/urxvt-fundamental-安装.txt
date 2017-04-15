@@ -38,7 +38,7 @@ URxvt.font: xft:Monospace:style=Regular:size=14:antialias=true
 URxvt.scrollBar:True
 URxvt.scrollBar_right:True
 URxvt.scrollBar_floating:False
-URxvt.scrollstyle:plain
+URxvt.scrollstyle:next
 ```
 
 生效
