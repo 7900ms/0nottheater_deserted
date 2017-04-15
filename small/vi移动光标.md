@@ -10,7 +10,7 @@ ctrl+[
 光标的位置、光标的动作
 
 /supplementary/vi-mode的问题
-vi-mode的问题是，当vi-mode生效时 命令历史会失效：不能再 自动联想 cd 过的命令、nano 过的文件名
+vi-mode的问题是，在一个 terminal emulator 里(比如xterm,iTerm,urxvt)，当vi-mode生效时 zsh-shell的命令历史会失效：不能再 自动联想 cd 过的命令、nano 过的文件名
 
 = = = 操作单位 = = =
 
