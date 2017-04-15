@@ -4,7 +4,7 @@ urxvt
 查看区:
 /usr/bin/urxvt
 /usr/lib/urxvt/perl
-urxvt --help 2>&1 | grep options:
+urxvt --help 2>&1 | grep options:  #=>没有unicode
 
 配置区:
 1.
