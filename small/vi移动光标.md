@@ -1,7 +1,7 @@
 
 进入 [vi-mode](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)
 
-(目标：用少量的 基本操作，完成大量的工作)
+(目标：用少量的 最基本操作，完成大量的工作)
 
 ctrl+[
 
