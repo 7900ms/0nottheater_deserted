@@ -53,7 +53,7 @@ urxvt -fn "xft:monospace:size=14:antialias=true"
 
 ZSH_THEME="eastwood" # non-unicode
 ZSH_THEME="minimal"
-ZSH_THEME="simple"
+ZSH_THEME="simple" ✓
 
 
 
