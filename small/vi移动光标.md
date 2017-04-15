@@ -9,6 +9,12 @@ ctrl+[
 
 光标的位置、光标的动作
 
+= = = 操作单位 = = =
+
+操作单位
+
+字符（h、l）→ 单词 (w、W、b、B、e) → 行 (j、k、0、^、$、:n)
+
 = = = 移动光标 = = =
 
 to the Beginning of a word:
@@ -104,7 +110,7 @@ dw
 /supplementary/傲游
 让光标起始位置在空格处，再删除。用 de 不用 dw 
 http://arhat.blog.51cto.com/101503/114148
-https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/
+[vi里的操作单位](https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/)
 G vi 常用命令 db
 
 http://www.thegeekstuff.com/2009/03/8-essential-vim-editor-navigation-fundamentals/
