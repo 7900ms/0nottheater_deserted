@@ -1,5 +1,27 @@
-!! # ~/.Xresources
-!! # xrdb ~/.Xresources
+! ~/.Xresources
+!
+! Run ‘xrdb ~/.Xresources’ to properly re-read this file. Check with ‘xrdb -query’
+
+! This is a comment
+!
+! SYNTAX
+!	<WM_CLASS>.<optionname>: <value>
+!		Usually urxvt have ‘urxvt’ and ‘URxvt’ as its WM classes.
+!	 	WM_CLASS in the example above may be:
+!		- ‘rxvt’, then same options derived from rxvt will work for urxvt;
+!		- ‘URxvt’, these options will not work for rxvt.
+!	<optionname>: <value>
+!		WM_CLASS will be assumed to terminal.
+!	[WM_CLASS]*<optionname>: <value>
+!		Options that have WM_CLASS matching the first WM_CLASS of the window
+!		(which may be set with -name option for urxvt) will take priority.
+!		If no WM_CLASS specfied, then option will match against any WM_CLASS,
+!       i.e. any window.
+! See output of xprop for window class information.
+!
+! https://github.com/deterenkelt/dotfiles/blob/master/.Xresources
+! https://github.com/ornicar/dotfiles/blob/master/Xresources
+! https://github.com/bluezd/Fedora/blob/master/rxvt-unicode/.Xdefaults
 
 !! # 快捷键
 !! # 复制粘贴
@@ -7,7 +29,7 @@
 
 !! # 字体
 !! # URxvt.font: xft:monospace:size=16
-URxvt.font: xft:monospace:size=16
+URxvt.font: xft:Meslo\ LG\ S\ DZ\ Regular\ for\ Powerline:size=16:antialias=true
 
-!! 颜色
+!! # 颜色
 
