@@ -62,6 +62,7 @@ urxvt*fadeColor:        #000000
 
 ! others -> http://www.askapache.com/linux/rxvt-xresources/
 URxvt*visualBell:  true
+URxvt*urgentOnBell: true
 URxvt*print-pipe:  cat > $HOME/$(echo urxvt.dump.$(date +'%Y%M%d%H%m%S'))
 
 !-- URxvt transparency -- !
