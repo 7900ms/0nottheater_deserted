@@ -16,7 +16,7 @@ echo "#" >> ~/.bash_profile
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 nano ~/.zshrc & source ~/.zshrc
 ```
-ZSH_THEME="eastwood"
+ZSH_THEME="simple"
 DISABLE_AUTO_UPDATE="true"
 plugins=(git bundler osx rake ruby)
 plugins=(git bower sublime brew history node npm sudo web-search fedora)
@@ -50,6 +50,7 @@ cd ~/tmp/fonts
 
 ZSH_THEME="eastwood" # non-unicode
 ZSH_THEME="minimal"
+ZSH_THEME="simple"
 
 
 
