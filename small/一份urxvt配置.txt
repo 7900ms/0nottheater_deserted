@@ -1,5 +1,8 @@
 
-#
+# 
+
+xrdb ~/.Xresources
+
 http://stephane.lesimple.fr/wiki/config_urxvt
 
 https://github.com/bluezd/Fedora/blob/master/rxvt-unicode/.Xdefaults
