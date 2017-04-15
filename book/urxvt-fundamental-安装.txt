@@ -22,6 +22,13 @@ ctrl+alt+c
 ctrl+alt+v
 
 3.
+命令行参数
+urxvt -fn "xft:Ubuntu Mono:size=14"
+urxvt -fn "xft:monospace:size=14:antialias=true"
+urxvt -fn "xft:Meslo LG S DZ for Powerline:style=Regular:size=14:antialias=true"
+
+
+4.
 配置测试
 
 vi ~/.Xresources
