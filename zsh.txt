@@ -16,7 +16,6 @@ echo "#" >> ~/.bash_profile
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 nano ~/.zshrc & source ~/.zshrc
 ```
-ZSH_THEME="agnoster"
 ZSH_THEME="eastwood"
 DISABLE_AUTO_UPDATE="true"
 plugins=(git bundler osx rake ruby)
@@ -41,6 +40,8 @@ cd ~/tmp/fonts
 
 -
 
+ZSH_THEME="agnoster" # unicode
+ZSH_THEME="eastwood" # non-unicode
 https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 
 -
