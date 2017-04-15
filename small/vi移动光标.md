@@ -88,8 +88,9 @@ emacs:
 -
 
 /supplementary/傲游
-用 de 不用 dw
+让光标起始位置在空格处，再删除。用 de 不用 dw 
 http://arhat.blog.51cto.com/101503/114148
+https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/
 
 -
 
