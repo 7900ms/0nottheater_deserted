@@ -11,3 +11,6 @@ https://gist.githubusercontent.com/anonymous/7091050/raw/5d140145c0bce4fd5efe48e
 
 
 G URxvt.scrollstyle: rxvt
+
+https://gist.github.com/yevgenko/1167205 *
+https://gist.github.com/whit/1307597 *
