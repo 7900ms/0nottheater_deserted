@@ -17,6 +17,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 nano ~/.zshrc & source ~/.zshrc
 ```
 ZSH_THEME="agnoster"
+ZSH_THEME="eastwood"
 DISABLE_AUTO_UPDATE="true"
 plugins=(git bundler osx rake ruby)
 plugins=(git bower sublime brew history node npm sudo web-search fedora)
@@ -38,3 +39,8 @@ cd ~/tmp/fonts
 打开 gnome-terminal 偏好设置 - 描述文件 - 文本 - 字体 Meslo LG S DZ Regular for Powerline
 
 
+-
+
+https://github.com/robbyrussell/oh-my-zsh/wiki/themes
+
+-
