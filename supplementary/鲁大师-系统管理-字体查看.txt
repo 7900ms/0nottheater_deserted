@@ -1,0 +1,13 @@
+
+字体文件目录
+~/.local/share/fonts
+
+安装字体
+把东西拷贝到字体目录
+
+查看字体
+fc-list
+
+让新字体生效
+fc-cache -v
+
