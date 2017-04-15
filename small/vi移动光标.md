@@ -15,6 +15,8 @@ ctrl+[
 
 字符（h、l）→ 单词 (w、W、b、B、e) → 行 (j、k、0、^、$、:n)
 
+先定单位,再定量 (单位是矢量的，它包含了方向)
+
 = = = 移动光标 = = =
 
 to the Beginning of a word:
