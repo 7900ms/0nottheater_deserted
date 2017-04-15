@@ -7,4 +7,6 @@ http://stephane.lesimple.fr/wiki/config_urxvt
 
 https://github.com/bluezd/Fedora/blob/master/rxvt-unicode/.Xdefaults
 
+https://gist.githubusercontent.com/anonymous/7091050/raw/5d140145c0bce4fd5efe48eaed7129bebd226188/.Xresources
+
 
