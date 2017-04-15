@@ -46,6 +46,9 @@ cd ~/tmp/fonts
 
 = = = 碎碎念 = = =
 
+测试
+urxvt -fn "xft:monospace:size=14:antialias=true"
+
 一般字体
 
 ZSH_THEME="eastwood" # non-unicode
