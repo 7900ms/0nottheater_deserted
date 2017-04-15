@@ -1,6 +1,10 @@
 
 urxvt
 
+查看区:
+/usr/bin/urxvt
+/usr/lib/urxvt/perl
+
 配置区:
 1.
 安装
