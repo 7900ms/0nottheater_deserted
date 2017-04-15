@@ -23,8 +23,9 @@ ctrl+alt+v
 
 3.
 命令行参数
-urxvt -fn "xft:Ubuntu Mono:size=14"
 urxvt -fn "xft:monospace:size=14:antialias=true"
+(Unicode的支持很差)
+urxvt -fn "xft:Ubuntu Mono:size=14"
 urxvt -fn "xft:Meslo LG S DZ for Powerline:style=Regular:size=14:antialias=true"
 
 
