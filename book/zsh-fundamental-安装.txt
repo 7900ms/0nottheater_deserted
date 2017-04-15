@@ -26,6 +26,9 @@ DEFAULT_USER=`whoami`
 TZ='Asia/Hong_Kong'; export TZ
 source ~/.bash_profile
 ```
+打开 gnome-terminal 偏好设置 - 描述文件 - 文本 - 字体 monospace
+
+
 
 /supplementary/字体配置区
 
@@ -35,7 +38,7 @@ cd ~/tmp/fonts
 ./install.sh
 安在了 ~/.local/share/fonts
 
-打开 gnome-terminal 偏好设置 - 描述文件 - 文本 - 字体 monospace
+打开 gnome-terminal 偏好设置 - 描述文件 - 文本 - 字体 Meslo LG S DZ Regular for Powerline
 
 
 -
