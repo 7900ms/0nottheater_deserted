@@ -25,6 +25,12 @@ xrdb ~/.Xresources
 
 成功
 
+
+
+
+
+
+
 参考区1:
 
 urxvt --help 2>&1| grep font
