@@ -9,4 +9,6 @@ sudo dnf install rxvt-unicode
 urxvt
 
 配置
-见 fvwm
+urxvt会按照 X 的配置来运行。X 的配置 见 fvwm
+
+-
