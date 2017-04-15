@@ -5,31 +5,158 @@
 ! This is a comment
 !
 ! SYNTAX
-!	<WM_CLASS>.<optionname>: <value>
-!		Usually urxvt have ‘urxvt’ and ‘URxvt’ as its WM classes.
-!	 	WM_CLASS in the example above may be:
-!		- ‘rxvt’, then same options derived from rxvt will work for urxvt;
-!		- ‘URxvt’, these options will not work for rxvt.
-!	<optionname>: <value>
-!		WM_CLASS will be assumed to terminal.
-!	[WM_CLASS]*<optionname>: <value>
-!		Options that have WM_CLASS matching the first WM_CLASS of the window
-!		(which may be set with -name option for urxvt) will take priority.
-!		If no WM_CLASS specfied, then option will match against any WM_CLASS,
+! <WM_CLASS>.<optionname>: <value>
+!   Usually urxvt have ‘urxvt’ and ‘URxvt’ as its WM classes.
+!   WM_CLASS in the example above may be:
+!   - ‘rxvt’, then same options derived from rxvt will work for urxvt;
+!   - ‘URxvt’, these options will not work for rxvt.
+! <optionname>: <value>
+!   WM_CLASS will be assumed to terminal.
+! [WM_CLASS]*<optionname>: <value>
+!   Options that have WM_CLASS matching the first WM_CLASS of the window
+!   (which may be set with -name option for urxvt) will take priority.
+!   If no WM_CLASS specfied, then option will match against any WM_CLASS,
 !       i.e. any window.
 ! See output of xprop for window class information.
 !
+
+! /supplementary/傲游
 ! https://github.com/deterenkelt/dotfiles/blob/master/.Xresources
 ! https://github.com/ornicar/dotfiles/blob/master/Xresources
 ! https://github.com/bluezd/Fedora/blob/master/rxvt-unicode/.Xdefaults
-
-! 快捷键
+! G URxvt.scrollstyle: rxvt
+! https://gist.github.com/yevgenko/1167205 *
+! https://gist.github.com/whit/1307597 *
+!
+! 搜索 urxvt --help 2>&1 | grep cursor
 ! 复制粘贴
 ! ctrl+alt+c, ctrl+alt+v
 
-! 字体
-! URxvt.font: xft:monospace:size=16
-URxvt.font: xft:Meslo\ LG\ S\ DZ\ Regular\ for\ Powerline:size=16:antialias=true
+!-- Xft settings -- !
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintslight
 
-! 颜色
+!-- URxvt settings -- !
 
+URxvt.termName:             rxvt-unicode
+URxvt.depth:                32
+URxvt.geometry:             90x20
+!URxvt.loginShell:           true
+URxvt.internalBorder:       3
+URxvt.lineSpace: 3
+
+!! Larger history limit
+URxvt*saveLines: 1000
+
+!! skipScroll
+! -> http://www.askapache.com/linux/rxvt-xresources/
+URxvt*skipScroll:  true
+
+!! fading
+! Fade the text by the given percentage when focus is lost. -> http://www.askapache.com/linux/rxvt-xresources/
+urxvt*fading:           30
+urxvt*fadeColor:        #000000
+
+! others -> http://www.askapache.com/linux/rxvt-xresources/
+URxvt*visualBell:  true
+URxvt*print-pipe:  cat > $HOME/$(echo urxvt.dump.$(date +'%Y%M%d%H%m%S'))
+
+!-- URxvt transparency -- !
+!! shading - 0 to 99 darkens, 101 to 200 lightens.
+!! Dont use with tintColor, just use a darker or lighter color instead. -> https://linux.die.net/man/1/urxvt
+!URxvt*transparent:   true
+!URxvt*shading:       20
+
+! -- Fonts -- !
+
+!URxvt*font: xft:Meslo LG S DZ for Powerline:style=Regular:pixelsize=14:antialias=true
+URxvt*font: xft:Monospace:style=Regular:pixelsize=14:antialias=true
+URxvt*boldFont: xft:Monospace:style=Bold:pixelsize=14:antialias=true
+
+! Fix font space
+URxvt*letterSpace: -1
+
+! -- Scrollbar -- !
+URxvt.scrollBar:True
+URxvt.scrollBar_right:True
+URxvt.scrollBar_floating:False
+!! scrollbar style - rxvt (default), plain, next, or xterm
+URxvt.scrollstyle:next
+!URxvt.thickness:15
+!URxvt.scrollColor: color5
+
+URxvt.mouseWheelScrollPage:True
+URxvt.scrollTtyOutput: False
+URxvt.scrollWithBuffer: True
+URxvt.scrollTtyKeypress: True
+
+! -- Border -- !
+URxvt.borderLess: False
+
+! -- Cursor and Pointer -- !
+URxvt.cursorUnderline:      flase
+URxvt.cursorBlink:          true
+URxvt.pointerBlank: flase
+
+! -- (register) Perl extensions -- !
+!URxvt*perl-ext:
+!URxvt.perl-ext-common:      default,matcher
+!URxvt.matcher.button:       1
+!URxvt.urlLauncher: /usr/bin/firefox
+
+! -- Color Scheme -- !
+
+! man pages
+URxvt.colorIT:       #87af5f
+URxvt.colorBD:       #d7d7d7
+URxvt.colorUL:       #87afd7
+URxvt*underlineColor:#87afd7
+!URxvt.colorUL:       yellow
+!URxvt*underlineColor:yellow
+
+!# Most Xorg terminals, including xterm and urxvt, support at least 16 basic colors. The colors 0-7 are the 'normal' colors. Colors 8-15 are their 'bright' counterparts, used for highlighting. These colors can be modified through X resources, or through specific terminal settings. For example:
+
+!!Source http://github.com/altercation/solarized, https://gist.github.com/yevgenko/1167205
+
+*background: #002b36
+*foreground: #657b83
+!!*fading: 40
+*fadeColor: #002b36
+*cursorColor: #93a1a1
+*pointerColorBackground: #586e75
+*pointerColorForeground: #93a1a1
+
+!! black dark/light
+*color0: #073642
+*color8: #002b36
+
+!! red dark/light
+*color1: #dc322f
+*color9: #cb4b16
+
+!! green dark/light
+*color2: #859900
+*color10: #586e75
+
+!! yellow dark/light
+*color3: #b58900
+*color11: #657b83
+
+!! blue dark/light
+*color4: #268bd2
+*color12: #839496
+
+!! magenta dark/light
+*color5: #d33682
+*color13: #6c71c4
+
+!! cyan dark/light
+*color6: #2aa198
+*color14: #93a1a1
+
+!! white dark/light
+*color7: #eee8d5
+*color15: #fdf6e3
