@@ -9,7 +9,7 @@ ctrl+[
 
 = = = 移动光标 = = =
 
-前进
+Go Back
 
 b
 3b
@@ -73,11 +73,13 @@ dd
 = = = 高级 - 复制粘贴 = = =
 
 复制
+yw
 
 粘贴
+p
 
 复制整行
-
+yy
 
 -
 
@@ -91,6 +93,7 @@ emacs:
 让光标起始位置在空格处，再删除。用 de 不用 dw 
 http://arhat.blog.51cto.com/101503/114148
 https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/
+G vi 常用命令 db
 
 -
 
