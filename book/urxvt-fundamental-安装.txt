@@ -1,1 +1,6 @@
 
+urxvt
+
+sudo dnf install rxvt-unicode
+/usr/bin/urxvt
+
