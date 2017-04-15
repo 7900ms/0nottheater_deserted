@@ -4,6 +4,8 @@ fullscreen 扩展
 urxvt --help 2>&1 | grep options: #=> 有perl
 /usr/lib/urxvt/perl
 
+https://wiki.archlinux.org/index.php/rxvt-unicode
+
 配置区1
 
 ~/.Xresources
