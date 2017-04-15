@@ -9,15 +9,16 @@ ctrl+[
 
 = = = 移动光标 = = =
 
-Go Back
+to the Beginning of a word:
 
 b
-3b
 
-后退
+to the End of a word:
 
-w
-3w
+e
+3e
+
+= = = 移动光标 = = =
 
 去最开头
 ^
@@ -89,11 +90,21 @@ emacs:
 
 -
 
+/supplementary/一般思路
+移动到对的位置，然后输入或删除
+
+/supplementary/移动光标不用
+w,3w
+/supplementary/删除单词不用
+dw
+
 /supplementary/傲游
 让光标起始位置在空格处，再删除。用 de 不用 dw 
 http://arhat.blog.51cto.com/101503/114148
 https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/
 G vi 常用命令 db
+
+http://www.thegeekstuff.com/2009/03/8-essential-vim-editor-navigation-fundamentals/
 
 -
 
