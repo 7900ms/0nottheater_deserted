@@ -4,6 +4,8 @@ urxvt
 查看区:
 /usr/bin/urxvt
 /usr/lib/urxvt/perl
+~/.Xresources
+
 urxvt --help 2>&1 | grep options:  #=>没有unicode
 urxvt --help 2>&1| sed -n '/:  /s/^ */! URxvt*/gp'
 
