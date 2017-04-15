@@ -19,6 +19,7 @@ vi ~/.xinitrc 加入
 ```
 [[ -f ~/.Xresources ]] && xrdb -merge ~/.Xresources
 ```
+source ~/.xinitrc
 
 2.
 测试
