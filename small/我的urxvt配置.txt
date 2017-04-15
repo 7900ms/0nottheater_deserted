@@ -23,13 +23,13 @@
 ! https://github.com/ornicar/dotfiles/blob/master/Xresources
 ! https://github.com/bluezd/Fedora/blob/master/rxvt-unicode/.Xdefaults
 
-!! # 快捷键
-!! # 复制粘贴
-!! # ctrl+alt+c, ctrl+alt+v
+! 快捷键
+! 复制粘贴
+! ctrl+alt+c, ctrl+alt+v
 
-!! # 字体
-!! # URxvt.font: xft:monospace:size=16
+! 字体
+! URxvt.font: xft:monospace:size=16
 URxvt.font: xft:Meslo\ LG\ S\ DZ\ Regular\ for\ Powerline:size=16:antialias=true
 
-!! # 颜色
+! 颜色
 
