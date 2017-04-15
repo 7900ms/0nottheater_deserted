@@ -1,1 +1,22 @@
 
+查看区:
+
+生效
+
+配置区1:
+
+X
+
+echo "#" >> ~/.Xresources
+cp /etc/X11/xinit/xinitrc ~/.xinitrc
+(不需要 ~/.Xdefaults)
+
+测试
+
+vi ~/.Xresources
+```
+```
+> xrdb ~/.Xresources
+urxvt 改变了样子
+
+
