@@ -11,4 +11,7 @@ urxvt
 配置
 urxvt会按照 X 的配置来运行。X 的配置 见 fvwm
 
+Youtube:
+[urxvt: Jump Start](https://www.youtube.com/watch?v=_kjbj-Ez1vU)
+
 -
