@@ -58,6 +58,7 @@ urxvt --help 2>&1| grep font
 urxvt --help 2>&1| grep scroll
 
 https://wiki.archlinux.org/index.php/rxvt-unicode
+https://wiki.gentoo.org/wiki/Rxvt-unicode
 https://github.com/bookercodes/awesome-urxvt
 
 参考区2:
