@@ -56,6 +56,9 @@ xrdb ~/.Xresources
 成功
 
 
+5.
+图标
+https://wiki.gentoo.org/wiki/Rxvt-unicode
 
 
 
