@@ -1,0 +1,12 @@
+
+> locale
+
+
+-
+
+https://linux.die.net/man/7/urxvt#LC_ALL
+
+https://itsfoss.com/things-to-do-after-installing-fedora-24/
+
+
+-
