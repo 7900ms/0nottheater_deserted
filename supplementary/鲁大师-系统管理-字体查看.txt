@@ -35,4 +35,6 @@ fc-list | grep 'wqy'
 测试
 urxvt -fn "xft:DejaVu Sans Mono:style=Book:pixelsize=14:antialias=true,xft:WenQuanYi Micro Hei:style=Regular:pixelsize=14:antialias=true"
 
+http://good5dog5.github.io/2016/03/19/urxvt-chinese-word-birck/
+
 -
