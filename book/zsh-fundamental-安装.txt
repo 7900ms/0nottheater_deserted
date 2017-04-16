@@ -33,6 +33,9 @@ source ~/.bash_profile
 
 /supplementary/字体配置区
 
+fc-list
+fc-cache -v
+
 cd ~/tmp
 git clone https://github.com/powerline/fonts.git
 cd ~/tmp/fonts
