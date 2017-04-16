@@ -30,3 +30,9 @@ tab(tmux),选中即复制
 8. 最终目的：不是要配出什么我的特色，而是要给每个机子上都能使用
 
 -
+
+不需要高明字体
+Levien Inconsolata fonts for Powerline
+Meslo LG S DZ for Powerline
+
+-
