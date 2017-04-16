@@ -1,0 +1,6 @@
+
+urxvt
+
+doc
+http://www.askapache.com/linux/rxvt-xresources/
+https://linux.die.net/man/1/urxvt
