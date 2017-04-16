@@ -10,7 +10,7 @@
 5. 一般功能
 6. 显式配置
 7. 长久使用和颜色美观
-8. 最终目的：不是要配出什么我的特色，而是要给每个机子上都能使用+长久固定使用 一劳永逸式不再变化。在救火别的更加高精尖d东西时 保证 urxvt 不拖后腿 (作为坚实后盾让人不慌)
+8. 最终目的/原则：不是要配出什么我的特色，而是要给每个机子上都能使用+长久固定使用 一劳永逸式不再变化。在救火别的更加高精尖d东西时 保证 urxvt 不拖后腿 (作为坚实后盾让人不慌)
 
 1. 节省资源
 搭配fvwm,尽量不依赖X
@@ -34,7 +34,7 @@ tab(tmux),选中即复制
 
 不需要高明字体
 DejaVu Sans Mono for Powerline
-Levien Inconsolata fonts for Powerline
+Levien Inconsolata fonts
 Meslo LG S DZ for Powerline
 
 -
