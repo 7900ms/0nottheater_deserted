@@ -76,9 +76,11 @@ bira,bureau,blinks,ys (@)(换行)
 monokai, solarized dark
 
 纯色
-grayscale-light, green-screen
+pjhalsli1_blue_theme,grayscale-light, green-screen
 
-
+最终选择：
+彩色一个 solarized dark
+纯色一个 pjhalsli1_blue_theme
 
 (*)https://chriskempson.github.io/base16/
 https://github.com/base16-builder/base16-builder
