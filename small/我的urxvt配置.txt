@@ -72,7 +72,7 @@ URxvt*saveLines: 12000
 URxvt*skipScroll:  true
 
 ! others -> http://www.askapache.com/linux/rxvt-xresources/ , https://github.com/lgaggini/dotfiles/blob/master/.Xresources
-URxvt*visualBell:  true
+URxvt*visualBell:  false ! -- avoid screen blink
 URxvt*urgentOnBell: true
 URxvt*print-pipe:  cat > $HOME/$(echo urxvt.dump.$(date +'%Y%M%d%H%m%S'))
 URxvt*insecure: false
