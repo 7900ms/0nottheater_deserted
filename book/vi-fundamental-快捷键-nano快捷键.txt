@@ -1,5 +1,5 @@
 
-在 visual mode 下
+在 normal mode 下
 
 退出
 ZQ
@@ -31,3 +31,6 @@ x
 -
 
 http://arhat.blog.51cto.com/101503/114148
+
+https://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes
+
