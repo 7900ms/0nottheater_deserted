@@ -100,7 +100,7 @@ URxvt.scrollBar_floating:False
 !! scrollbar style - rxvt (default), plain, next, or xterm
 URxvt.scrollstyle:next
 !URxvt.thickness:15
-!URxvt.scrollColor: color5
+!URxvt.scrollColor:#5D6262
 
 URxvt.mouseWheelScrollPage:False ! -- scroll page by page
 URxvt.scrollTtyOutput: False
