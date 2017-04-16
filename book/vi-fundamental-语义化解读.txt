@@ -25,3 +25,8 @@ vi 的单位
 Vi/Vim 中操作单位有很多，按从小到大的顺序为（括号内为相应的操作命令）：字符（h、l）→ 单词 (w、W、b、B、e) → 行 (j、k、0、^、$、:n) → 句子（(、)）→ 段落（{、}）→ 屏 (H、M、L) → 页（Ctrl-f、Ctrl-b、Ctrl-u、Ctrl-d) → 文件（G、gg、:0、:$）。
 
 https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/
+
+
+-
+
+https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode
