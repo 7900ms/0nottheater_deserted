@@ -31,6 +31,9 @@
 ! 搜索 urxvt --help 2>&1 | grep cursor
 ! 复制粘贴
 ! ctrl+alt+c, ctrl+alt+v
+! tab
+! 新标签 Shift+Down
+! 关闭标签 Ctrl+d 
 
 !-- Xft settings -- !
 Xft.dpi:        96
