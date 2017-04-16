@@ -62,7 +62,7 @@ URxvt.modifier: alt
 
 ! inputMethod
 !URxvt.inputMethod: ibus
-!URxvt.preeditType: OverTheSpot
+!!URxvt.preeditType: OverTheSpot ! -- 输入法样式:跟随。可选：OverTheSpot(跟随), OffTheSpot(不跟随), Root(底部), None(不显示) 可写多个，也可以不写。建议不写 -> do not specify a preeditStyle https://linux.die.net/man/7/urxvt
 
 !! Larger history limit
 URxvt*saveLines: 12000
