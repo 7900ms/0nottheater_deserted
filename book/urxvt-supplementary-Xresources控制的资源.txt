@@ -4,7 +4,7 @@ Xresources 可以控制的资源
 ! shell样式(oh-my-zsh theme)、字体、unicode(未装载)、扩展、整体颜色(仿gnome-terminal)、颜色主题(纯色)、屏幕防闪、屏幕失焦(fading)、中文显示、光标
 ! choose colors: oh-my-zsh theme: ys; 整体颜色: 仿gnome-terminal、颜色主题(纯色): 白蓝色
 ! choose fonts: 英文字体 DejaVu Sans Mono, 中文字体 WenQuanYi Micro Hei Mono (未灌制 unicode 字符)
-! 扩展: 装载 matcher, fullscreen, font-size, tabbedex
+! 扩展: 装载 matcher, fullscreen, font-size, tabbedex; selection-to-clipboard,readline(鼠标移动光标)
 !
 
 [1]
