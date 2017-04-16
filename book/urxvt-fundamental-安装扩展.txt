@@ -19,6 +19,14 @@ sudo !!
 https://github.com/bookercodes/awesome-urxvt
 
 2.
+测试
+
+urxvt -pe fullscreen
+
+成功
+
+3.
+生效
 vi ~/.Xresources
 ```
 URxvt.perl-ext-common: ...,fullscreen,...
