@@ -1,4 +1,15 @@
 
+dd          删除一行                       del dir
+dw          删除单词到尾部（包括空格）     del word
+db          删除单词到头部（不包括头部空格） del begin *
+de          删除单词到尾部（不包括尾部空格） del end
+d$          删除当前到行尾的所有字符      del $(代表尾部)
+d^          删除当前到行首的所有字符      del ^(代表行首)
+
+http://arhat.blog.51cto.com/101503/114148
+
+= = = =
+
 So my mind goes through the process of the checklist:
 
 - do I want to write the file? (w)
@@ -7,3 +18,10 @@ So my mind goes through the process of the checklist:
 - do I want to write/abandon any changes? (!) 
 
 http://vim.1045645.n5.nabble.com/wq-vs-ZZ-td1158910.html
+
+= = = =
+
+vi 的单位
+Vi/Vim 中操作单位有很多，按从小到大的顺序为（括号内为相应的操作命令）：字符（h、l）→ 单词 (w、W、b、B、e) → 行 (j、k、0、^、$、:n) → 句子（(、)）→ 段落（{、}）→ 屏 (H、M、L) → 页（Ctrl-f、Ctrl-b、Ctrl-u、Ctrl-d) → 文件（G、gg、:0、:$）。
+
+https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/
