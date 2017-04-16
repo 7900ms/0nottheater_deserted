@@ -36,3 +36,8 @@ Levien Inconsolata fonts for Powerline
 Meslo LG S DZ for Powerline
 
 -
+
+字符习惯正确:
+没有 $ 字符
+
+-
