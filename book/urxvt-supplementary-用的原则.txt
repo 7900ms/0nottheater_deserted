@@ -33,6 +33,7 @@ tab(tmux),选中即复制
 -
 
 不需要高明字体
+DejaVu Sans Mono for Powerline
 Levien Inconsolata fonts for Powerline
 Meslo LG S DZ for Powerline
 
