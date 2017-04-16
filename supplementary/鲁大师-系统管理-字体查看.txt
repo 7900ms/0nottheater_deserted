@@ -8,7 +8,7 @@ fc-list : file
 把东西拷贝到字体目录
 
 查看字体
-fc-list
+fc-list | grep 'DejaVu Sans Mono'
 
 让新字体生效
 fc-cache -v
@@ -25,3 +25,14 @@ urxvt -fn "xft:Ubuntu Mono:size=14"
 urxvt -fn "xft:Meslo LG S DZ for Powerline:style=Regular:size=14:antialias=true"
 
 https://wiki.archlinux.org/index.php/font_configuration
+
+
+
+安装字体
+dnf search wqy
+sudo dnf install wqy-microhei-fonts
+fc-list | grep 'wqy'
+测试
+urxvt -fn "xft:DejaVu Sans Mono:style=Book:pixelsize=14:antialias=true,xft:WenQuanYi Micro Hei:style=Regular:pixelsize=14:antialias=true"
+
+-
