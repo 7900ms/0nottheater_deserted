@@ -64,11 +64,6 @@ URxvt*saveLines: 1000
 ! -> http://www.askapache.com/linux/rxvt-xresources/
 URxvt*skipScroll:  true
 
-!! fading
-! Fade the text by the given percentage when focus is lost. -> http://www.askapache.com/linux/rxvt-xresources/
-urxvt*fading:           30
-urxvt*fadeColor:        #000000
-
 ! others -> http://www.askapache.com/linux/rxvt-xresources/
 URxvt*visualBell:  true
 URxvt*urgentOnBell: true
@@ -139,7 +134,7 @@ URxvt*underlineColor:#87afd7
 
 *background: #002b36
 *foreground: #657b83
-!!*fading: 40
+*fading: 40
 *fadeColor: #002b36
 *cursorColor: #93a1a1
 *pointerColorBackground: #586e75
