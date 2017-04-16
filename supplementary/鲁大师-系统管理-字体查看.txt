@@ -1,5 +1,7 @@
 
 字体文件目录
+fc-list : file
+/usr/share/fonts
 ~/.local/share/fonts
 
 安装字体
@@ -17,3 +19,4 @@ urxvt -fn "xft:monospace:size=14:antialias=true"
 urxvt -fn "xft:Ubuntu Mono:size=14"
 urxvt -fn "xft:Meslo LG S DZ for Powerline:style=Regular:size=14:antialias=true"
 
+https://wiki.archlinux.org/index.php/font_configuration
