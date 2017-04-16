@@ -109,8 +109,7 @@ URxvt.cursorBlink:          true
 URxvt.pointerBlank: flase
 
 ! -- (register) Perl extensions -- !
-URxvt.perl-ext-common: default,tabbed,matcher,selection-to-clipboard,  -url-select,-selection-popup
-! no -keyboard-select, -autocomplete-ALL-the-things
+URxvt.perl-ext-common: default,tabbed,matcher,selection-to-clipboard,-url-select,-selection-popup,-keyboard-select, -autocomplete-ALL-the-things
 URxvt.url-launcher: /usr/bin/firefox
 URxvt.matcher.button: 1
 URxvt.keysym.F11: perl:fullscreen:switch
