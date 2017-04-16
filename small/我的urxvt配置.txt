@@ -147,20 +147,23 @@ URxvt.matcher.button: 1
 URxvt.url-launcher: /usr/bin/firefox
 ! -- tabbed
 ! -- For a simple tab control
-URxvt.tabbed.tabbar-fg: 2
+!URxvt.tabbed.tabbar-fg: 2
 URxvt.tabbed.tabbar-bg: 0
-URxvt.tabbed.tab-fg: 3
+URxvt.tabbed.tab-fg: 1
 URxvt.tabbed.tab-bg: 0
 ! -- tabbedex
-URxvt.tabbed.no_default_keys:true
-URxvt.tabbed.new-button:true
+URxvt.tabbed.new-button:false
+URxvt.keysym.C-t:perl:tabbedex:new_tab
 URxvt.tabbed.tab_title: true
-URxvt.tabbed.autohide: false
-URXvt.tabbed.reopen-on-close:	ture
-URxvt.keysym.C-t:	perl:tabbedex:new_tab
-URxvt.keysym.C-w:	perl:tabbedex:close_tab
-URxvt.keysym.S-Right:	perl:tabbedex:next_tab
-!URxvt.keysym.S-Left:	perl:tabbedex:prev_tab
+URxvt.tabbed.autohide: true
+URXvt.tabbed.reopen-on-close:   ture
+URxvt.keysym.S-Right:   perl:tabbedex:next_tab
+URxvt.keysym.S-Left:    perl:tabbedex:prev_tab
+URxvt.keysym.C-S-Left: perl:tabbex:move_tab_left
+URxvt.keysym.C-S-Right: perl:tabbex:move_tab_right
+URxvt.keysym.S-Up: perl:tabbedex:rename_tab
+URxvt.tabbed.title-fg:1
+URxvt.tabbed.title-bg:0
 ! -- selection-to-clipboard
 ! -- For adding to PRIMARY clipboard when selecting a word with mouse
 URxvt.clipboard.autocopy: true
@@ -244,8 +247,17 @@ URxvt*underlineColor:#87afd7
 !*background     : #151515
 !*background       :rgba(21, 21, 21, 0.84)
 *background     : #292929
-*fading: 15 ! -- percentage of fading on unfocused
-*fadeColor: #000000
+*fading: 30 ! -- percentage of fading on unfocused
+*fadeColor: #252525
+!0/8纯黑
+!1白
+!2蓝
+!3白
+!4灰
+!5亮蓝 ✓(25)
+!6白
+!7白
+!8纯黑
 !# black
 *color0 : #252525
 *color8 : #252525
