@@ -129,7 +129,14 @@ URxvt.pointerBlank:         Flase
 !URxvt.perl-lib: /usr/lib/urxvt/perl/
 !URxvt.perl-lib: /usr/lib64/urxvt/perl/ (fedora)
 ! newly installed => fullscreen
-URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,vtwheel,readline,-url-select,-selection-popup,-option-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen
+URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,readline,-vtwheel,-clipboard,-url-select,-selection-popup,-option-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen,font-size
+
+! -- DEPRECATED : vtwheel, url-select(replaced by matcher), clipboard(replaced by selection-to-clipboard)
+! -- Download : fullscreen, font-size
+! cd /usr/lib64/urxvt/perl/
+! sudo wget https://raw.githubusercontent.com/7900ms/urxvt-scripts/master/fullscreen
+! sudo wget https://raw.githubusercontent.com/7900ms/urxvt-scripts/master/font-size
+!
 ! -- readline
 ! -- For moving the text cursor to where clicking shift-left + left mouse button
 ! (default)
@@ -146,10 +153,17 @@ URxvt.tabbed.tab-bg: 0
 ! -- selection-to-clipboard
 ! -- For adding to PRIMARY clipboard when selecting a word with mouse
 URxvt.clipboard.autocopy: true
-! -- fullscreen (installed)
+! -- fullscreen
 ! -- For into fullscreen mode. Trigger key: F11
 URxvt.keysym.F11: perl:fullscreen:switch
-
+! -- font-size
+URxvt.font-size.step: 1
+URxvt.keysym.C-Up:     font-size:increase
+URxvt.keysym.C-Down:   font-size:decrease
+URxvt.keysym.C-S-Up:   font-size:incglobal
+URxvt.keysym.C-S-Down: font-size:decglobal
+URxvt.keysym.C-equal:  font-size:reset
+URxvt.keysym.C-slash:  font-size:show
 
 
 ! -- Color Scheme -- !
