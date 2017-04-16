@@ -152,7 +152,7 @@ URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg: 1
 URxvt.tabbed.tab-bg: 0
 ! -- tabbedex
-URxvt.tabbed.new-button:false
+URxvt.tabbed.new-button:true
 URxvt.keysym.C-t:perl:tabbedex:new_tab
 URxvt.tabbed.tab_title: true
 URxvt.tabbed.autohide: true
@@ -162,6 +162,8 @@ URxvt.keysym.S-Left:    perl:tabbedex:prev_tab
 URxvt.keysym.C-S-Left: perl:tabbex:move_tab_left
 URxvt.keysym.C-S-Right: perl:tabbex:move_tab_right
 URxvt.keysym.S-Up: perl:tabbedex:rename_tab
+URxvt.keysym.S-Down:perl:tabbedex:new_tab ! -- 默认 + 写定的 不能自定义
+URxvt.keysym.C-d:perl:tabbedex:close_tab  ! -- 默认 + 写定的 不能自定义
 URxvt.tabbed.title-fg:1
 URxvt.tabbed.title-bg:0
 ! -- selection-to-clipboard
