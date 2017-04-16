@@ -4,3 +4,4 @@
 urgency hint for the wm
 https://github.com/vincentbernat/fvwm-configuration/blob/master/recipes/Vince
 
+https://linux.die.net/man/1/urxvt # urgentOnBell visualBell
