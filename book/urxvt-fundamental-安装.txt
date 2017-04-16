@@ -3,7 +3,7 @@ urxvt
 
 查看区:
 /usr/bin/urxvt
-/usr/lib/urxvt/perl
+/usr/lib64/urxvt/perl (/usr/lib/urxvt/perl)
 ~/.Xresources
 
 urxvt --help 2>&1 | grep options:  #=>没有unicode
@@ -70,6 +70,8 @@ https://wiki.gentoo.org/wiki/Rxvt-unicode
 
 参考区1:
 
+/usr/lib/urxvt/perl
+
 urxvt --help 2>&1| grep font
 urxvt --help 2>&1| grep scroll
 
@@ -78,6 +80,8 @@ https://wiki.gentoo.org/wiki/Rxvt-unicode
 https://github.com/bookercodes/awesome-urxvt
 https://linux.die.net/man/1/urxvt
 http://www.askapache.com/linux/rxvt-xresources/
+
+https://superuser.com/questions/590080/perl-extensions-not-searched-for-in-inc
 
 参考区2:
 urxvt会按照 X 的配置来运行。X 的配置 见 fvwm
