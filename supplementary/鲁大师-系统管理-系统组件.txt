@@ -67,7 +67,13 @@ G dnf command fedora
 http://www.pczone.com.tw/vbb3/thread/41/102673/
 http://tieba.baidu.com/p/2818285334
 
+<增加软件仓库>
+检查： dnf info vlc
+sudo dnf install --nogpgcheck https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf install --nogpgcheck https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+/supplementary/傲游
 https://itsfoss.com/things-to-do-after-installing-fedora-24/
+http://www.videolan.org/vlc/download-fedora.html
 
 = = = 碎碎念 = = =
 
