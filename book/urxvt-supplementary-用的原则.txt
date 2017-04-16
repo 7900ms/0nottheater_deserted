@@ -73,5 +73,6 @@ monokai, solarized dark
 
 
 (*)https://chriskempson.github.io/base16/
+http://iterm2colorschemes.com
 
 -
