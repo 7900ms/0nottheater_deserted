@@ -1,0 +1,22 @@
+
+Xresources 可以控制的资源
+! This is a comment
+! shell样式(oh-my-zsh theme)、字体、unicode(未装载)、扩展、整体颜色(仿gnome-terminal)、颜色主题(纯色)、屏幕防闪、屏幕失焦(fading)、中文显示、光标
+! choose colors: oh-my-zsh theme: ys; 整体颜色: 仿gnome-terminal、颜色主题(纯色): 白蓝色
+! choose fonts: 英文字体 DejaVu Sans Mono, 中文字体 WenQuanYi Micro Hei Mono (未灌制 unicode 字符)
+! 扩展: 装载 matcher, fullscreen, font-size, tabbedex
+!
+
+[1]
+在 X Window System 里， X resources 控制所有 X Client 的资源，比如字体、菜单颜色、某一个程序窗口背景色。X Client 就是一个个普通程序
+https://wiki.archlinux.org/index.php/X_resources
+
+[2]
+颜色主题: 写在 Xresources 的16色
+
+Rxvt-unicode is controlled by command-line arguments or Xresources. Command-line arguments override, and take precedence over resource settings, see the X resources article for details. 
+
+https://wiki.archlinux.org/index.php/X_resources#Terminal_colors
+https://wiki.archlinux.org/index.php/Rxvt-unicode#Colors
+
+-
