@@ -30,3 +30,7 @@ https://www.ibm.com/developerworks/cn/linux/l-cn-tip-vim/
 -
 
 https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode
+
+http://learnvimscriptthehardway.stevelosh.com/chapters/03.html
+
+https://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes
