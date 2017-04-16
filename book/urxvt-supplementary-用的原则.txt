@@ -36,7 +36,7 @@ tab(tmux),选中即复制
 DejaVu Sans Mono for Powerline
 Levien Inconsolata fonts
 Meslo LG S DZ for Powerline
-自带 Monospace 更好
+自带且节省资源的 Monospace 更好
 
 -
 
