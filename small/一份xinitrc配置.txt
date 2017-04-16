@@ -12,4 +12,4 @@ https://bbs.archlinux.org/viewtopic.php?id=218358
 to see how can your 'xrdb -merge ~/.Xresources' automatically
 https://bbs.archlinux.org/viewtopic.php?id=179046
 https://wiki.archlinux.org/index.php/X_resources#Adding_to_xinitrc
-
+https://github.com/bstaletic/dotfiles
