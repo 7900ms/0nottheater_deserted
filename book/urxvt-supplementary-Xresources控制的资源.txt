@@ -8,10 +8,20 @@ Xresources 可以控制的资源
 !
 
 [1]
+用户界面是怎么产生的？ X (X11)
+
+X Window 工作原理：
+X Server 在中间, 相当于一个监听器
+向上：键盘、鼠标
+向下通向 X Client：浏览器程序、终端程序、游戏程序等一切“有界面的程序”
+
+https://github.com/7900ms/0nottheater_deserted/blob/master/supplementary/鲁大师-系统管理-X信息.txt
+
+[2]
 在 X Window System 里， X resources 控制所有 X Client 的资源，比如字体、菜单颜色、某一个程序窗口背景色。X Client 就是一个个普通程序
 https://wiki.archlinux.org/index.php/X_resources
 
-[2]
+[3]
 颜色主题: 写在 Xresources 的16色
 
 Rxvt-unicode is controlled by command-line arguments or Xresources. Command-line arguments override, and take precedence over resource settings, see the X resources article for details. 
