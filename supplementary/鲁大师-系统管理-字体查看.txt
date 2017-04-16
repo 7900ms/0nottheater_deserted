@@ -14,7 +14,12 @@ fc-list
 fc-cache -v
 
 字体测试
-urxvt -fn "xft:monospace:size=14:antialias=true"
+urxvt -fn "xft:Monospace:size=14:antialias=true"
+urxvt -fn "xft:DejaVu Sans Mono:style=Book:size=14:antialias=true"
+
+urxvt -fn "xft:Monospace:style=Regular:pixelsize=14:antialias=true"
+urxvt -fn "xft:DejaVu Sans Mono:style=Book:pixelsize=14:antialias=true"
+
 (Unicode的支持很差)
 urxvt -fn "xft:Ubuntu Mono:size=14"
 urxvt -fn "xft:Meslo LG S DZ for Powerline:style=Regular:size=14:antialias=true"
