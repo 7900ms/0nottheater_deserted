@@ -4,9 +4,15 @@ urxvt
 
 urxvt --help 2>&1 | grep options: #=> 有perl
 
+urxvt --help 2>&1 | grep options:  #=>没有unicode3 (urxvt -v)
+urxvt --help 2>&1| sed -n '/:  /s/^ */! URxvt*/gp'
+
+/usr/lib64/urxvt/perl (/usr/lib/urxvt/perl)
+
 doc
 http://www.askapache.com/linux/rxvt-xresources/
 https://linux.die.net/man/1/urxvt
+https://linux.die.net/man/7/urxvt
 
 https://wiki.archlinux.org/index.php/rxvt-unicode
 https://wiki.gentoo.org/wiki/Rxvt-unicode
