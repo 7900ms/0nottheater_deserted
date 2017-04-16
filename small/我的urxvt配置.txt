@@ -48,6 +48,7 @@ Xft.antialias:  true
 Xft.rgba:       rgb
 Xft.hinting:    true
 Xft.hintstyle:  hintslight
+Xft.lcdfilter:  lcddefault
 
 !-- URxvt settings -- !
 
@@ -55,7 +56,6 @@ URxvt.termName:             rxvt-unicode
 URxvt.depth:                32
 URxvt.geometry:             90x20
 URxvt.loginShell:           true
-URxvt.internalBorder:       3
 URxvt.lineSpace: 3
 
 URxvt.modifier: alt
@@ -71,10 +71,12 @@ URxvt*saveLines: 1000
 ! -> http://www.askapache.com/linux/rxvt-xresources/
 URxvt*skipScroll:  true
 
-! others -> http://www.askapache.com/linux/rxvt-xresources/
+! others -> http://www.askapache.com/linux/rxvt-xresources/ , https://github.com/lgaggini/dotfiles/blob/master/.Xresources
 URxvt*visualBell:  true
 URxvt*urgentOnBell: true
 URxvt*print-pipe:  cat > $HOME/$(echo urxvt.dump.$(date +'%Y%M%d%H%m%S'))
+URxvt*insecure: false
+URxvt*hold: false
 
 !-- URxvt transparency -- !
 !! shading - 0 to 99 darkens, 101 to 200 lightens.
@@ -100,18 +102,20 @@ URxvt.scrollstyle:next
 !URxvt.thickness:15
 !URxvt.scrollColor: color5
 
-URxvt.mouseWheelScrollPage:True
+URxvt.mouseWheelScrollPage:False ! -- scroll page by page
 URxvt.scrollTtyOutput: False
 URxvt.scrollWithBuffer: True
 URxvt.scrollTtyKeypress: True
 
 ! -- Border -- !
 URxvt.borderLess: False
+URxvt.internalBorder: 3
+URxvt.externalBorder: 0
 
 ! -- Cursor and Pointer -- !
-URxvt.cursorUnderline:      flase
-URxvt.cursorBlink:          true
-URxvt.pointerBlank: flase
+URxvt.cursorUnderline:      Flase
+URxvt.cursorBlink:          True
+URxvt.pointerBlank:         Flase
 
 ! -- tab -- !
 ! tmux
@@ -119,7 +123,7 @@ URxvt.pointerBlank: flase
 ! -- (register) Perl extensions -- !
 ! Perl extensions dir /usr/lib64/urxvt/perl (/usr/lib/urxvt/perl)
 ! newly installed => fullscreen
-URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,-url-select,-selection-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen
+URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,-url-select,-selection-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen,vtwheel
 URxvt.url-launcher: /usr/bin/firefox
 URxvt.matcher.button: 1
 URxvt.keysym.F11: perl:fullscreen:switch
@@ -199,7 +203,7 @@ URxvt*underlineColor:#87afd7
 !*background     : #151515
 !*background       :rgba(21, 21, 21, 0.84)
 *background     : #292929
-*fading: 15
+*fading: 15 ! -- percentage of fading on unfocused
 *fadeColor: #000000
 !# black
 *color0 : #252525
