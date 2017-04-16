@@ -1,5 +1,6 @@
 
 fedora系统版本(25)
+hostnamectl
 cat /etc/os-release
 
 系统信息
