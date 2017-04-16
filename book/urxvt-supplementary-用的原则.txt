@@ -2,20 +2,20 @@
 用 urxvt 和 配置 urxvt 的原则
 
 1. 节省资源,用默认配置
-2. 零件化 配置清晰
+2. 零件化 它就是个小零件
 3. 少依赖插件
 4. 放弃功能
 5. 一般功能
 
 1. 节省资源
 搭配fvwm,尽量不依赖X
-2. 零件化 配置清晰
+2. 零件化 它就是个小零件
 ~/.Xresources
 3. 少依赖插件
-x unicode3,
+x unicode3, ✓ fullscreen
 4. 放弃功能
-- 显示 oh-my-zsh 的 agnoster 主题 (https://github.com/powerline/powerline/issues/684#issuecomment-26757287, https://github.com/robbyrussell/oh-my-zsh/wiki/themes#agnoster)
-  选择其他简易风格主题
+  - 显示 oh-my-zsh 的 agnoster 主题 (https://github.com/powerline/powerline/issues/684#issuecomment-26757287, https://github.com/robbyrussell/oh-my-zsh/wiki/themes#agnoster)
+  ->选择其他简易风格主题
 5. 一般功能
 tab(tmux),选中即复制
 
