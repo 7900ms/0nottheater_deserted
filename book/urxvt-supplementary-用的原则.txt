@@ -62,3 +62,16 @@ bira,bureau,blinks,ys (@)(换行)
 不换行的一个 minimal,simple
 
 -
+
+颜色：
+
+彩色
+monokai, solarized dark
+
+纯色
+
+
+
+(*)https://chriskempson.github.io/base16/
+
+-
