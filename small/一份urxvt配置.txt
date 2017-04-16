@@ -5,7 +5,7 @@ xrdb ~/.Xresources
 
 http://stephane.lesimple.fr/wiki/config_urxvt
 
-https://github.com/bluezd/Fedora/blob/master/rxvt-unicode/.Xdefaults
+https://github.com/bluezd/Fedora/blob/master/rxvt-unicode/.Xdefaults # 中文及背景透明度
 
 https://github.com/powerline/powerline/issues/684#issuecomment-26757287 with unicode3
 
