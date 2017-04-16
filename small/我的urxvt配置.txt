@@ -106,7 +106,7 @@ URxvt.cursorUnderline:      flase
 URxvt.cursorBlink:          true
 URxvt.pointerBlank: flase
 
-! -- Cursor and Pointer -- !
+! -- tab -- !
 ! tmux
 
 ! -- (register) Perl extensions -- !
