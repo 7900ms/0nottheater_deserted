@@ -63,12 +63,20 @@ bira,bureau,blinks,ys (@)(换行)
 
 -
 
-颜色：
+-
+
+颜色习惯正确:
+看着不分心
+
+-
+
+颜色主题：
 
 彩色
 monokai, solarized dark
 
 纯色
+grayscale-light, green-screen
 
 
 
