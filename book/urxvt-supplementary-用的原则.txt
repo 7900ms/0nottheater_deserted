@@ -44,3 +44,16 @@ Meslo LG S DZ for Powerline
 完整路径：输入处前 路径完整
 
 -
+
+主题：
+
+af-magic,minimal,eastwood,simple (不换行)
+dpoggi,fishy,gentoo,jreese,"risto" (@)(不换行) [不喜欢]
+arrow,awesomepanda (xxx路径不完整xxxx)
+
+avit, (换行)
+bira,blinks,bureau,dpoggi,theunraveler,ys (@)(换行)
+
+https://github.com/robbyrussell/oh-my-zsh/wiki/themes
+
+-
