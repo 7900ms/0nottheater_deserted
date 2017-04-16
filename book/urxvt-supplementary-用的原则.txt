@@ -54,7 +54,7 @@ arrow,awesomepanda,theunraveler (xxx路径不完整xxxx)
 avit, (换行)
 bira,bureau,blinks,ys (@)(换行)
 
-https://github.com/robbyrussell/oh-my-zsh/wiki/themes
+(*)https://github.com/robbyrussell/oh-my-zsh/wiki/themes
 
 最终选择：
 换行的一个 ys,blinks,avit
