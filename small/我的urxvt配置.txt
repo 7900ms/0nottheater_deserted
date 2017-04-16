@@ -122,19 +122,29 @@ URxvt.pointerBlank:         Flase
 
 ! -- (register) Perl extensions -- !
 ! Perl extensions dir /usr/lib64/urxvt/perl (/usr/lib/urxvt/perl)
-!urxvt.perl-lib: /usr/lib/urxvt/perl/
-!urxvt.perl-lib: /usr/lib64/urxvt/perl/ (fedora)
+!URxvt.perl-lib: /usr/lib/urxvt/perl/
+!URxvt.perl-lib: /usr/lib64/urxvt/perl/ (fedora)
 ! newly installed => fullscreen
-URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,vtwheel,-url-select,-selection-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen
-URxvt.url-launcher: /usr/bin/firefox
+URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,vtwheel,readline,-url-select,-selection-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen
+! -- readline
+! -- For moving the text cursor to where clicking shift-left + left mouse button
+! (default)
+! -- matcher
+! -- For opening urls with browser
 URxvt.matcher.button: 1
-URxvt.keysym.F11: perl:fullscreen:switch
+URxvt.url-launcher: /usr/bin/firefox
+! -- tabbed
+! -- For a simple tab control
 URxvt.tabbed.tabbar-fg: 2
 URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg: 3
 URxvt.tabbed.tab-bg: 0
+! -- selection-to-clipboard
+! -- For adding to PRIMARY clipboard when selecting a word with mouse
 URxvt.clipboard.autocopy: true
-
+! -- fullscreen (installed)
+! -- For into fullscreen mode. Trigger key: F11
+URxvt.keysym.F11: perl:fullscreen:switch
 
 
 
