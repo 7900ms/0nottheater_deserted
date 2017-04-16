@@ -65,7 +65,7 @@ URxvt.modifier: alt
 !URxvt.preeditType: OverTheSpot
 
 !! Larger history limit
-URxvt*saveLines: 1000
+URxvt*saveLines: 12000
 
 !! skipScroll
 ! -> http://www.askapache.com/linux/rxvt-xresources/
