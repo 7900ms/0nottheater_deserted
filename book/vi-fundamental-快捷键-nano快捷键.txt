@@ -20,7 +20,7 @@ C-f
 
 [1]
 正常模式( = normal mode, visual mode )
-进入 visual mode : 在 Ex mode 输入 :visual
+进入 visual mode : 在 Ex mode 输入 :visual 或 按下ESC键
 进入 visual mode : 在 Insert mode 输入 ctrl+[
 
 [2] 能达到同样的效果，所以不用记
