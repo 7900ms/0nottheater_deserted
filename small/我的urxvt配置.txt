@@ -89,8 +89,10 @@ URxvt*hold: false
 !URxvt*font: xft:Meslo LG S DZ for Powerline:style=Regular:pixelsize=14:antialias=true
 !URxvt*font: xft:Monospace:style=Regular:pixelsize=14:antialias=true
 !URxvt*boldFont: xft:Monospace:style=Bold:pixelsize=14:antialias=true
-URxvt*font: xft:DejaVu Sans Mono:style=Book:pixelsize=14:antialias=true
-URxvt*boldFont: xft:DejaVu Sans Mono:style=Book:pixelsize=14:antialias=true
+!URxvt*font: xft:DejaVu Sans Mono:style=Book:pixelsize=14:antialias=true
+!URxvt*boldFont: xft:DejaVu Sans Mono:style=Bold:pixelsize=14:antialias=true
+URxvt*font: xft:DejaVu Sans Mono:style=Book:pixelsize=14:antialias=true,xft:WenQuanYi Micro Hei Mono:style=Regular:pixelsize=14:antialias=true
+URxvt*boldFont: xft:DejaVu Sans Mono:style=Bold:pixelsize=14:antialias=true,xft:WenQuanYi Micro Hei Mono:style=Regular:pixelsize=14:antialias=true
 
 ! Fix font space
 URxvt*letterSpace: -1
