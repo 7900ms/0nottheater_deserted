@@ -9,6 +9,18 @@ https://www.youtube.com/watch?v=OVko_lhkQjs
 
 配置区
 
+默认扩展
+
+! matcher for clickable urls and vtwheel for scroll in man, less, etc.
+URxvt.perl-ext-common:  default,matcher,selection-to-clipboard,vtwheel
+URxvt.url-launcher:     /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.clipboard.autocopy: true
+
+https://github.com/lgaggini/dotfiles/blob/master/.Xresources
+
+配置区
+
 1.
 安装
 sudo dnf install -y wmctrl
