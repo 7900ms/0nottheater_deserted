@@ -129,13 +129,14 @@ URxvt.pointerBlank:         Flase
 !URxvt.perl-lib: /usr/lib/urxvt/perl/
 !URxvt.perl-lib: /usr/lib64/urxvt/perl/ (fedora)
 ! newly installed => fullscreen
-URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,readline,-vtwheel,-clipboard,-url-select,-selection-popup,-option-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen,font-size
+URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,readline,-vtwheel,-clipboard,-url-select,-selection-popup,-option-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen,font-size,tabbedex
 
 ! -- DEPRECATED : vtwheel, url-select(replaced by matcher), clipboard(replaced by selection-to-clipboard)
-! -- Download : fullscreen, font-size
+! -- Download
 ! cd /usr/lib64/urxvt/perl/
 ! sudo wget https://raw.githubusercontent.com/7900ms/urxvt-scripts/master/fullscreen
 ! sudo wget https://raw.githubusercontent.com/7900ms/urxvt-scripts/master/font-size
+! sudo wget https://raw.githubusercontent.com/7900ms/urxvt-scripts/master/tabbedex
 !
 ! -- readline
 ! -- For moving the text cursor to where clicking shift-left + left mouse button
@@ -150,6 +151,15 @@ URxvt.tabbed.tabbar-fg: 2
 URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg: 3
 URxvt.tabbed.tab-bg: 0
+! -- tabbedex
+URxvt.tabbed.autohide: no
+URxvt.tabbed.new-button:true
+URxvt.tabbed.title: yes
+URXvt.tabbed.reopen-on-close:	yes
+URxvt.keysym.C-t:	perl:tabbedex:new_tab
+URxvt.keysym.C-w:	perl:tabbedex:close_tab
+URxvt.keysym.S-Right:	perl:tabbedex:next_tab
+URxvt.keysym.S-Left:	perl:tabbedex:prev_tab
 ! -- selection-to-clipboard
 ! -- For adding to PRIMARY clipboard when selecting a word with mouse
 URxvt.clipboard.autocopy: true
