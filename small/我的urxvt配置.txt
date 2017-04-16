@@ -48,6 +48,12 @@ URxvt.loginShell:           true
 URxvt.internalBorder:       3
 URxvt.lineSpace: 3
 
+URxvt.modifier: alt
+
+! inputMethod
+!URxvt.inputMethod: ibus
+!URxvt.preeditType: OverTheSpot
+
 !! Larger history limit
 URxvt*saveLines: 1000
 
@@ -103,9 +109,15 @@ URxvt.cursorBlink:          true
 URxvt.pointerBlank: flase
 
 ! -- (register) Perl extensions -- !
-URxvt*perl-ext-common: default,matcher
-URxvt.matcher.button: 1
+URxvt.perl-ext-common: default,tabbed,matcher,selection-to-clipboard,  -keyboard-select,-url-select,-selection-popup,  -autocomplete-ALL-the-things
 URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.keysym.F11: perl:fullscreen:switch
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 0
+URxvt.tabbed.tab-fg: 3
+URxvt.tabbed.tab-bg: 0
+URxvt.clipboard.autocopy: true
 
 ! -- Color Scheme -- !
 
