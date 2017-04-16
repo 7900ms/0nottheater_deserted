@@ -147,7 +147,7 @@ URxvt.matcher.button: 1
 URxvt.url-launcher: /usr/bin/firefox
 ! -- tabbed
 ! -- For a simple tab control
-!URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-fg: 2
 URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg: 1
 URxvt.tabbed.tab-bg: 0
@@ -249,6 +249,7 @@ URxvt*underlineColor:#87afd7
 *background     : #292929
 *fading: 30 ! -- percentage of fading on unfocused
 *fadeColor: #252525
+! -- 纯色 ---
 !0/8纯黑
 !1白
 !2蓝
@@ -258,6 +259,7 @@ URxvt*underlineColor:#87afd7
 !6白
 !7白
 !8纯黑
+! -- 纯色 ---
 !# black
 *color0 : #252525
 *color8 : #252525
