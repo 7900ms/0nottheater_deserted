@@ -125,7 +125,7 @@ URxvt.pointerBlank:         Flase
 !URxvt.perl-lib: /usr/lib/urxvt/perl/
 !URxvt.perl-lib: /usr/lib64/urxvt/perl/ (fedora)
 ! newly installed => fullscreen
-URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,vtwheel,readline,-url-select,-selection-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen
+URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,vtwheel,readline,-url-select,-selection-popup,-option-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen
 ! -- readline
 ! -- For moving the text cursor to where clicking shift-left + left mouse button
 ! (default)
