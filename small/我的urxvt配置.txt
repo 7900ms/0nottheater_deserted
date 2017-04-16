@@ -18,7 +18,10 @@
 !   If no WM_CLASS specfied, then option will match against any WM_CLASS,
 !       i.e. any window.
 ! See output of xprop for window class information.
+!
+! All urxvt properties
 ! urxvt --help 2>&1| sed -n '/: /s/^ */! URxvt*/gp'
+! urxvt --help 2>&1| sed -n '/: /s/^ */! URxvt./gp'
 !
 
 ! /supplementary/傲游
