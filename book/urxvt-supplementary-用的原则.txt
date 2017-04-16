@@ -83,5 +83,6 @@ grayscale-light, green-screen
 (*)https://chriskempson.github.io/base16/
 https://github.com/base16-builder/base16-builder
 http://iterm2colorschemes.com
+https://www.reddit.com/r/unixporn/comments/4rdjmh/terminal_color_schemes/#pjhalsli1
 
 -
