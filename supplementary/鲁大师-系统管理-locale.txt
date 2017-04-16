@@ -1,5 +1,23 @@
 
+locale
+
 > locale
+> localectl status
+> sudo vi /etc/locale.conf
+```
+LANG="en_US.UTF-8"
+``` 改为
+LC_ALL=en_US.UTF-8
+LANG=en_US.UTF-8
+```
+> sudo localectl set-locale LC_CTYPE=en_US.UTF-8
+
+timedatectl
+
+sudo rm /etc/localtime
+sudo cp /usr/share/zoneinfo/Asia/Hong_Kong /etc/localtime
+> sudo timedatectl set-timezone Asia/Hong_Kong
+(> sudo timedatectl set-timezone Australia/Adelaide)
 
 
 -
