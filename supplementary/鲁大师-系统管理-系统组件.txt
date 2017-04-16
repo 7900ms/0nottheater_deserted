@@ -67,6 +67,8 @@ G dnf command fedora
 http://www.pczone.com.tw/vbb3/thread/41/102673/
 http://tieba.baidu.com/p/2818285334
 
+https://itsfoss.com/things-to-do-after-installing-fedora-24/
+
 = = = 碎碎念 = = =
 
 系统组件/包管理
