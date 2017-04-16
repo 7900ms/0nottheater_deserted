@@ -152,14 +152,15 @@ URxvt.tabbed.tabbar-bg: 0
 URxvt.tabbed.tab-fg: 3
 URxvt.tabbed.tab-bg: 0
 ! -- tabbedex
-URxvt.tabbed.autohide: no
+URxvt.tabbed.no_default_keys:true
 URxvt.tabbed.new-button:true
-URxvt.tabbed.title: yes
-URXvt.tabbed.reopen-on-close:	yes
+URxvt.tabbed.tab_title: true
+URxvt.tabbed.autohide: false
+URXvt.tabbed.reopen-on-close:	ture
 URxvt.keysym.C-t:	perl:tabbedex:new_tab
 URxvt.keysym.C-w:	perl:tabbedex:close_tab
 URxvt.keysym.S-Right:	perl:tabbedex:next_tab
-URxvt.keysym.S-Left:	perl:tabbedex:prev_tab
+!URxvt.keysym.S-Left:	perl:tabbedex:prev_tab
 ! -- selection-to-clipboard
 ! -- For adding to PRIMARY clipboard when selecting a word with mouse
 URxvt.clipboard.autocopy: true
