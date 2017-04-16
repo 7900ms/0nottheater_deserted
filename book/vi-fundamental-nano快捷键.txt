@@ -1,0 +1,33 @@
+
+在 visual mode 下
+
+退出
+ZQ
+
+写入并退出
+ZZ
+
+向上翻页 go back
+C-b
+
+下翻页 go front
+C-f
+
+
+
+-
+
+
+[1]
+正常模式( = normal mode, visual mode )
+进入 visual mode : 在 Ex mode 输入 :visual
+进入 visual mode : 在 Insert mode 输入 ctrl+[
+
+[2] 能达到同样的效果，所以不用记
+wq
+wq!
+x
+
+-
+
+http://arhat.blog.51cto.com/101503/114148
