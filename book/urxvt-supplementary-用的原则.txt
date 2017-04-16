@@ -43,7 +43,7 @@ Meslo LG S DZ for Powerline
 没有 $ 字符：输入处前 没有美元字符
 完整路径：输入处前 路径完整
 
--
+- -
 
 主题：
 
@@ -55,5 +55,9 @@ avit, (换行)
 bira,blinks,bureau,dpoggi,theunraveler,ys (@)(换行)
 
 https://github.com/robbyrussell/oh-my-zsh/wiki/themes
+
+最终选择：
+换行的一个 theunraveler,avit
+不换行的一个 minimal,simple
 
 -
