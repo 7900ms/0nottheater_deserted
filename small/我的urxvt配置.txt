@@ -123,7 +123,7 @@ URxvt.pointerBlank:         Flase
 ! -- (register) Perl extensions -- !
 ! Perl extensions dir /usr/lib64/urxvt/perl (/usr/lib/urxvt/perl)
 ! newly installed => fullscreen
-URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,-url-select,-selection-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen,vtwheel
+URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,vtwheel,-url-select,-selection-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen
 URxvt.url-launcher: /usr/bin/firefox
 URxvt.matcher.button: 1
 URxvt.keysym.F11: perl:fullscreen:switch
