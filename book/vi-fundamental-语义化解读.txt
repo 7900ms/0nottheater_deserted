@@ -1,0 +1,9 @@
+
+So my mind goes through the process of the checklist:
+
+- do I want to write the file? (w)
+- do I want to quit the file? (q)
+- do I want to quit ALL the files? (a)
+- do I want to write/abandon any changes? (!) 
+
+http://vim.1045645.n5.nabble.com/wq-vs-ZZ-td1158910.html
