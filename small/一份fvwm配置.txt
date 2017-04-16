@@ -1,0 +1,6 @@
+
+一份 fvwm 配置
+
+urgency hint for the wm
+https://github.com/vincentbernat/fvwm-configuration/blob/master/recipes/Vince
+
