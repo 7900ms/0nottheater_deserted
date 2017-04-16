@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=OVko_lhkQjs
 1.
 安装
 sudo dnf install -y wmctrl
-cd /usr/lib/urxvt/perl
+cd /usr/lib64/urxvt/perl
 wget https://raw.githubusercontent.com/effigies/urxvt-perl/master/fullscreen
 sudo !!
 
