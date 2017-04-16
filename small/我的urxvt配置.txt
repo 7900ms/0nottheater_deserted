@@ -196,7 +196,7 @@ URxvt*underlineColor:#87afd7
 
 ! -- Color Scheme 2 -- !
 !
-! https://www.reddit.com/r/unixporn/comments/4rdjmh/terminal_color_schemes/#pjhalsli1
+! 蓝白色 https://www.reddit.com/r/unixporn/comments/4rdjmh/terminal_color_schemes/#pjhalsli1
 
 ![colors]
 !# special
