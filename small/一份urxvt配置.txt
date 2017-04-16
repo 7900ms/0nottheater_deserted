@@ -14,3 +14,11 @@ G URxvt.scrollstyle: rxvt
 
 https://gist.github.com/yevgenko/1167205 *
 https://gist.github.com/whit/1307597 *
+
+
+
+-
+
+copyright
+https://github.com/lgaggini/dotfiles/blob/master/.Xresources
+https://github.com/Sarcasm/config/blob/master/.Xdefaults
