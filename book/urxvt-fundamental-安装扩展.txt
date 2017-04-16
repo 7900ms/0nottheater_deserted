@@ -2,89 +2,19 @@
 fullscreen 扩展
 
 urxvt --help 2>&1 | grep options: #=> 有perl
-/usr/lib/urxvt/perl
+/usr/lib64/urxvt/perl (/usr/lib/urxvt/perl)
 
 https://wiki.archlinux.org/index.php/rxvt-unicode
 https://www.youtube.com/watch?v=OVko_lhkQjs
 
-配置区1
-
-~/.Xresources
-```
-! -- Extensions -- !
-URxvt*perl-ext:
-URxvt*perl-ext-common: default,selection-to-clipboard,keyboard-select,matcher
-
-URxvt*clipboard.autocopy: true
-
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
-URxvt.keysym.M-s: perl:keyboard-select:search
-
-URxvt.underlineURLs:  True
-URxvt.url-launcher:   /usr/bin/firefox
-URxvt.keysym.M-u:     perl:url-select:select_next
-URxvt.matcher.button: 1
-
-
-
-```
-
-
-
-
-
-
-
-配置区1
-开启默认扩展
-
-
-
-```
-! Register
-URxvt*perl-ext:
-URxvt.perl-ext-common: default,keyboard-select,matcher,   selection-to-clipboard
-
-!keyboard-select
-URxvt.keysym.M-Escape: perl:keyboard-select:activate
-!URxvt.keysym.M-s: perl:keyboard-select:search
-
-!matcher
-URxvt.keysym.M-u:     perl:url-select:select_next
-URxvt.url-launcher:   /usr/bin/firefox
-URxvt.underlineURLs:  True
-URxvt.matcher.button: 1
-
-! clipboard
-! update clipboard whenever primary gets updated
-URxvt.clipboard.autocopy: true
-! url-select
-! We can middle-click on any url and this will launch the browser defined by `URxvt.url-select.launcher`.
-URxvt.keysym.M-u: perl:url-select:select_next
-URxvt.url-launcher:   /usr/bin/firefox
-URxvt.underlineURLs:  True
-
-```
-
-vi ~/.Xresources
-```
-URxvt.perl-ext-common: default,selection-to-clipboard,pasta,matcher,keyboard-select
-URxvt.keysym.M-u:     perl:url-select:select_next
-URxvt.url-launcher:   /usr/bin/firefox
-URxvt.underlineURLs:  True
-URxvt.matcher.button: 1 
-URxvt.keysym.M-Escape:perl:keyboard-select:activate
-URxvt.keysym.Control-Shift-V:     perl:pasta:paste
-! Comment this if you don't want copy when text is selected
-URxvt.clipboard.autocopy: true
-```
-
-配置区2
+配置区
 
 1.
 安装
+sudo dnf install -y wmctrl
 cd /usr/lib/urxvt/perl
-sudo wget https://raw.githubusercontent.com/effigies/urxvt-perl/master/fullscreen
+wget https://raw.githubusercontent.com/effigies/urxvt-perl/master/fullscreen
+sudo !!
 
 https://github.com/bookercodes/awesome-urxvt
 
@@ -99,3 +29,5 @@ URxvt.keysym.F11: perl:fullscreen:switch
 参考区
 https://www.youtube.com/watch?v=OVko_lhkQjs
 https://wiki.archlinux.org/index.php/rxvt-unicode
+
+https://superuser.com/questions/590080/perl-extensions-not-searched-for-in-inc
