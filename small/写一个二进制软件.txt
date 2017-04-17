@@ -23,3 +23,10 @@ dada:
 即使是一个 /usr/bin/helloyou 也可以(弹出一个框子说hello,再显示一下当前时间,和一个确认关闭按钮)
 
 -
+
+/supplementary/傲游
+G 桌面程序 linux 用什么语言
+https://www.zhihu.com/question/29637142
+
+-
+
