@@ -143,7 +143,7 @@ URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,readline,s
 ! -- For moving the text cursor to where clicking shift-left + left mouse button
 ! (default)
 ! -- matcher
-! -- For opening urls with browser
+! -- For opening urls with browser. Just one click on url, it will automatically open in browser.
 URxvt.matcher.button: 1
 URxvt.url-launcher: /usr/bin/firefox
 ! -- tabbed
@@ -173,7 +173,7 @@ URxvt.clipboard.autocopy: true
 ! -- mouse click selection
 ! -- For mouse click to select the proper range of words
 URxvt.selection.pattern-0: ([[:word:]]+)
-URxvt.selection.pattern-1: ([^"&'()*,;<=>?@[\\\\]^`{|})]+)
+!URxvt.selection.pattern-1: ([^"&'()*,;<=>?@[\\\\]^`{|})]+)
 !URxvt.selection.pattern-2: ( at .*? line \\d+)
 !URxvt.selection.pattern-3: ^(/[^:]+):\
 !URxvt.selection-autotransform.0: s/^([^:[:space:]]+):(\\d+):?$/:e \\Q$1\\E\\x0d:$2\\x0d/
