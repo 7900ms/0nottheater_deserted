@@ -27,7 +27,7 @@ dada:
 /supplementary/傲游
 G 桌面程序 linux 用什么语言
 https://www.zhihu.com/question/29637142
-二进制怎么来的？编译(编译参数)
+二进制怎么来的？编译得到的(编译参数)
 https://www.zhihu.com/question/20586845
 https://github.com/powerline/powerline/issues/684#issuecomment-120308226#  urxvt --help 2>&1 | grep options: ( unicode3 )
 
