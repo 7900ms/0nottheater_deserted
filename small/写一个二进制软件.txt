@@ -32,6 +32,13 @@ https://www.zhihu.com/question/20586845
 https://github.com/powerline/powerline/issues/684#issuecomment-120308226#  urxvt --help 2>&1 | grep options: ( unicode3 )
 https://www.zhihu.com/question/49768842/answer/147520810
 
+G qt
+https://www.zhihu.com/people/_jason_wong_/answers
+(如何写一个有界面的二进制) C++ + QML
+https://www.zhihu.com/question/24461881/answer/139797356
+Qt5.6 LTS (目前最新的版本是 QtLite 的5.8, 没必要)
+https://www.zhihu.com/question/53425270/answer/147004428
+
 -
 /supplementary/软件相关的样子
 
