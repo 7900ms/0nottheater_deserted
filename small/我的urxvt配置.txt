@@ -129,7 +129,8 @@ URxvt.pointerBlank:         Flase
 !URxvt.perl-lib: /usr/lib/urxvt/perl/
 !URxvt.perl-lib: /usr/lib64/urxvt/perl/ (fedora)
 ! newly installed => fullscreen
-URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,readline,-vtwheel,-clipboard,-url-select,-selection-popup,-option-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen,font-size,tabbedex
+
+URxvt.perl-ext-common: default,-tabbed,matcher,selection-to-clipboard,readline,selection,selection-autotransform,-vtwheel,-clipboard,-url-select,-selection-popup,-option-popup,-keyboard-select,-autocomplete-ALL-the-things,fullscreen,font-size,tabbedex
 
 ! -- DEPRECATED : vtwheel, url-select(replaced by matcher), clipboard(replaced by selection-to-clipboard)
 ! -- Download
@@ -162,13 +163,19 @@ URxvt.keysym.S-Left:    perl:tabbedex:prev_tab
 URxvt.keysym.C-S-Left: perl:tabbex:move_tab_left
 URxvt.keysym.C-S-Right: perl:tabbex:move_tab_right
 URxvt.keysym.S-Up: perl:tabbedex:rename_tab
-URxvt.keysym.S-Down:perl:tabbedex:new_tab ! -- 默认 + 写定的 不能自定义
-URxvt.keysym.C-d:perl:tabbedex:close_tab  ! -- 默认 + 写定的 不能自定义
+!! keysym.S-Down:perl:tabbedex:new_tab ! -- 默认 + 写定的 不能改
+!! keysym.C-d:perl:tabbedex:close_tab  ! -- 默认 + 写定的 不能改或增加绑定
 URxvt.tabbed.title-fg:1
 URxvt.tabbed.title-bg:0
 ! -- selection-to-clipboard
 ! -- For adding to PRIMARY clipboard when selecting a word with mouse
 URxvt.clipboard.autocopy: true
+! -- selection
+! -- For mouse click to select the proper range of words
+URxvt.selection.pattern-0: ( at .*? line \\d+)
+URxvt.selection.pattern-1: ^(/[^:]+):\
+URxvt.selection-autotransform.0: s/^([^:[:space:]]+):(\\d+):?$/:e \\Q$1\\E\\x0d:$2\\x0d/
+URxvt.selection-autotransform.1: s/^ at (.*?) line (\\d+)$/:e \\Q$1\\E\\x0d:$2\\x0d/
 ! -- fullscreen
 ! -- For into fullscreen mode. Trigger key: F11
 URxvt.keysym.F11: perl:fullscreen:switch
