@@ -174,10 +174,10 @@ URxvt.clipboard.autocopy: true
 ! -- For mouse click to select the proper range of words
 URxvt.selection.pattern-0: ([[:word:]]+)
 URxvt.selection.pattern-1: ([^"&'()*,;<=>?@[\\\\]^`{|})]+)
-URxvt.selection.pattern-2: ( at .*? line \\d+)
-URxvt.selection.pattern-3: ^(/[^:]+):\
-URxvt.selection-autotransform.0: s/^([^:[:space:]]+):(\\d+):?$/:e \\Q$1\\E\\x0d:$2\\x0d/
-URxvt.selection-autotransform.1: s/^ at (.*?) line (\\d+)$/:e \\Q$1\\E\\x0d:$2\\x0d/
+!URxvt.selection.pattern-2: ( at .*? line \\d+)
+!URxvt.selection.pattern-3: ^(/[^:]+):\
+!URxvt.selection-autotransform.0: s/^([^:[:space:]]+):(\\d+):?$/:e \\Q$1\\E\\x0d:$2\\x0d/
+!URxvt.selection-autotransform.1: s/^ at (.*?) line (\\d+)$/:e \\Q$1\\E\\x0d:$2\\x0d/
 ! -- fullscreen
 ! -- For into fullscreen mode. Trigger key: F11
 URxvt.keysym.F11: perl:fullscreen:switch
