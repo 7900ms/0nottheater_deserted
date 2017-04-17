@@ -171,7 +171,7 @@ URxvt.tabbed.title-bg:0
 ! -- For adding to PRIMARY clipboard when selecting a word with mouse
 URxvt.clipboard.autocopy: true
 ! -- mouse click selection
-! -- For mouse click to select the proper range of words
+! -- For mouse click to select the proper range of words. https://linux.die.net/man/7/urxvt
 URxvt.selection.pattern-0: ([[:word:]]+)
 !URxvt.selection.pattern-1: ([^"&'()*,;<=>?@[\\\\]^`{|})]+)
 !URxvt.selection.pattern-2: ( at .*? line \\d+)
