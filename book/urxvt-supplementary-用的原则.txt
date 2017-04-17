@@ -88,3 +88,10 @@ http://iterm2colorschemes.com
 https://www.reddit.com/r/unixporn/comments/4rdjmh/terminal_color_schemes/#pjhalsli1
 
 -
+
+可能放弃的东西：
+1. Unicode(当一个二进制文件没能编译进去unicode3时)
+2. 中文输入(当一个机子没安装文泉驿字体时)
+3. 光标形状 (是在 Xresource 里控制吗？弄好之后能在 vi tumx 里用吗？)
+
+-
