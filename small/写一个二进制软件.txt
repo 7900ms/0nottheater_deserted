@@ -1,5 +1,5 @@
 
-编译成一个二进制文件 桌面程序
+编译成一个二进制文件 桌面程序 (一个 X-Client)
 
 最终得到一个文件
 有界面的
@@ -28,7 +28,10 @@ dada:
 G 桌面程序 linux 用什么语言
 https://www.zhihu.com/question/29637142
 
+一个 firefox 也是一个软件啊 (一个 X-Client)
 https://github.com/7900ms/0nottheater_deserted/blob/master/supplementary/鲁大师-系统管理-默认程序查看器.txt
+
+http://www.yinwang.org/blog-cn/2015/11/21/programming-philosophy#编程的智慧-不写颠三倒四的流程,以及拒接写冗余流程的心态
 
 -
 
