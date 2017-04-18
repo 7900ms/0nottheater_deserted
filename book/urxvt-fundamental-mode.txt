@@ -1,0 +1,11 @@
+
+urxvt (vs xterm)
+daemon mode uses less memory
+
+
+
+[1]
+daemon mode uses less memory
+https://www.reddit.com/r/commandline/comments/1ethd5/what_is_urxvt_and_why_do_people_use_it/
+
+-
