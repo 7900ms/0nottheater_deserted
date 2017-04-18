@@ -16,4 +16,12 @@ G urxvt daemon mode
 https://www.reddit.com/r/linux/comments/4jbeh4/psa_if_you_use_urxvt_as_your_terminal_emulator/
 
 
+
+
+doc
+
+https://linux.die.net/man/1/urxvtc
+https://linux.die.net/man/1/urxvtd
+https://linux.die.net/man/7/urxvt#selection.pattern
+
 -
