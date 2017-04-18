@@ -1,0 +1,6 @@
+
+https://yeupou.wordpress.com/2010/03/06/lightest-terminal-urxvt-in-daemonclient-mode/
+
+https://linux.die.net/man/1/urxvtd
+
+-
