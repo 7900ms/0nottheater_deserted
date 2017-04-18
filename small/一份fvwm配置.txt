@@ -5,3 +5,10 @@ urgency hint for the wm
 https://github.com/vincentbernat/fvwm-configuration/blob/master/recipes/Vince
 
 https://linux.die.net/man/1/urxvt # urgentOnBell visualBell
+
+
+openbox
+https://urxvt.wordpress.com/2015/05/15/a-simple-way-to-use-urxvt-as-an-application-launcher/
+
+
+-
