@@ -5,6 +5,7 @@ daemon mode uses less memory
 
 如何启动 daemon mode
 Xsession
+用Xsession开机执行某脚本
 
 
 
