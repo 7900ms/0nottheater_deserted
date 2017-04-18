@@ -1,6 +1,8 @@
 
 在 normal mode 下
 
+(右手按右shift大写)
+
 退出
 ZQ
 
