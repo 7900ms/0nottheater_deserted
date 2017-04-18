@@ -1,11 +1,15 @@
 
+/supplementary/引子
 urxvt (vs xterm)
 daemon mode uses less memory
 
 
 
-[1]
+/supplementary/傲游
 daemon mode uses less memory
 https://www.reddit.com/r/commandline/comments/1ethd5/what_is_urxvt_and_why_do_people_use_it/
+G urxvt daemon mode
+https://www.reddit.com/r/linux/comments/4jbeh4/psa_if_you_use_urxvt_as_your_terminal_emulator/
+
 
 -
