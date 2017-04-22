@@ -5,7 +5,7 @@ zsh
 
 /usr/bin/zsh
 /usr/share/zsh
-用 oh-my-zsh 的 simple 主题自带的 文字颜色 （用 urxvt 设置仅做背景色设置）
+用 oh-my-zsh 的 ys 主题自带的 文字颜色 （用 urxvt 设置仅做背景色设置）
 
 配置区
 sudo dnf install util-linux-user
