@@ -68,3 +68,7 @@ https://github.com/7900ms/0nottheater_deserted/blob/master/supplementary/鲁大�
 新4大件(支持电源管理)
 LXDE(DE) urxvt-terminalEmulator zsh-shell tumx
 -
+
+mac 窗口平铺器 moom
+https://www.producthunt.com/posts/magnet-for-mac
+
