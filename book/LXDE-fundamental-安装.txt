@@ -10,3 +10,13 @@ https://spins.fedoraproject.org/lxde/
 
 https://fedoraproject.org/wiki/LXDE
 
+
+
+
+
+原始4大件《一个组合》
+Xresources: fvwm-wm urxvt-terminalEmulator zsh-shell tumx
+https://github.com/7900ms/0nottheater_deserted/blob/master/supplementary/鲁大师-系统管理-X信息.txt
+
+新4大件(支持电源管理)
+LXDE(DE) urxvt-terminalEmulator zsh-shell tumx
