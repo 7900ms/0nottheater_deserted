@@ -48,6 +48,7 @@ i3(必须有配置过程) 和其他窗口管理器/DE(可省去配置过程,稍�
 内存：lubuntu(LXDE)✓ xubuntu fvwm
 搭配：窗口管理器是否和其他桌面程序搭配 ？ (包括 tray 托盘图标)  迅雷 ssr (—— 不会做 就不会错) 
 搭配：如果只有少数软件，那么是无所谓的(比如如果跑不出五个软件，只用 terminal, ranger, chrome, player, emacs, vim 六个软件，那么用 LXDE or fvwm 是无所谓的)
+一个搭配问题：用firefox保存文件时 会跳出文件管理器 -- 这也是需要配置的(https://www.reddit.com/r/i3wm/comments/67zlio/ugly_default_file_manager/)
 
 A desktop environment
 a bundle of components to provide common graphical user interface elements such as icons, toolbars, wallpapers, and desktop widgets. Most of the desktop environments have their own set of integrated applications and utilities so that users get a uniform feel while using the OS.
