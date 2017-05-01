@@ -46,7 +46,8 @@ https://wiki.archlinux.org/index.php/window_manager
 https://l3net.wordpress.com/2013/03/17/a-memory-comparison-of-light-linux-desktops/
 i3(必须有配置过程) 和其他窗口管理器/DE(可省去配置过程,稍微占多点儿内存) 的比较 https://www.youtube.com/watch?v=QnYN2CTb1hM
 内存：lubuntu(LXDE)✓ xubuntu fvwm
-搭配：窗口管理器是否和其他桌面程序搭配 ？ (包括 tray 托盘图标)  迅雷 ssr (—— 不会做 就不会错)
+搭配：窗口管理器是否和其他桌面程序搭配 ？ (包括 tray 托盘图标)  迅雷 ssr (—— 不会做 就不会错) 
+搭配：如果只有少数软件，那么是无所谓的(比如只用 terminal, ranger, chrome, player, emacs, vim 六个软件，那么用 LXDE or fvwm 是无所谓的)
 
 A desktop environment
 a bundle of components to provide common graphical user interface elements such as icons, toolbars, wallpapers, and desktop widgets. Most of the desktop environments have their own set of integrated applications and utilities so that users get a uniform feel while using the OS.
