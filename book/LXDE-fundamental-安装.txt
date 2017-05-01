@@ -8,7 +8,11 @@ https://itsfoss.com/which-ubuntu-install/
 
 https://spins.fedoraproject.org/lxde/
 
+
+su -c 'dnf group install lxde-desktop'
 https://fedoraproject.org/wiki/LXDE
+
+
 
 
 
