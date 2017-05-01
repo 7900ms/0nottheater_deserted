@@ -51,6 +51,7 @@ i3(必须有配置过程) 和其他窗口管理器/DE(可省去配置过程,稍�
 一个搭配问题：用firefox保存文件时 会跳出文件管理器 -- 这也是需要配置的(https://www.reddit.com/r/i3wm/comments/67zlio/ugly_default_file_manager/)
 一个 tiling or floating 的问题：在感官形态上讲 tiling 是最终形态，但是 如果用软件来强制 tiling 就失去了灵活性 https://i3wm.org/docs/userguide.html#_floating # i3 自动帮你固定了窗口的位置(类似 mac 的 moom )。
 * 一个电源管理的问题： power management https://www.reddit.com/r/i3wm/comments/67caz0/unable_to_start_gnomesettingsdaemon_do_you/   https://www.v2ex.com/t/227934?p=2 
+  解决办法：跟随gnome(黑箱)自带的走，同时只把 i3 当作一个普通程序(而不是接管一切窗口的窗口管理器)
 
 A desktop environment
 a bundle of components to provide common graphical user interface elements such as icons, toolbars, wallpapers, and desktop widgets. Most of the desktop environments have their own set of integrated applications and utilities so that users get a uniform feel while using the OS.
