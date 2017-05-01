@@ -60,3 +60,7 @@ https://itsfoss.com/which-ubuntu-install/
 
 
 -
+
+原始4大件《一个组合》
+https://github.com/7900ms/0nottheater_deserted/blob/master/supplementary/鲁大师-系统管理-X信息.txt
+-
