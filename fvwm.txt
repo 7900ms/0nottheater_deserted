@@ -13,6 +13,9 @@ https://www.youtube.com/watch?v=j1I63wGcvU4
 https://www.youtube.com/watch?v=QnYN2CTb1hM #  i3 - An Improved Tiling Window Manager (also with floating wm)
 floating wm aka 2bwm https://www.v2ex.com/t/227934?p=1
 
+slim
+启动器 slim+fvwm  https://www.v2ex.com/t/227934?p=2
+
 ==
 
 awesome + urxvt
