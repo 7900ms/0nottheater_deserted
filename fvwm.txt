@@ -43,6 +43,6 @@ https://wiki.archlinux.org/index.php/window_manager
 
 一种分类方式：按照内存价位，来找窗口管理器 （没必要非扯着 fvwm wm 或 i3 wm 自己配，而是找那些 ‘占用内存较小’ 的 Desktop Environment --）
 https://l3net.wordpress.com/2013/03/17/a-memory-comparison-of-light-linux-desktops/
-i3 和其他窗口管理器/DE 的比较 https://www.youtube.com/watch?v=QnYN2CTb1hM
+i3(必须有配置过程) 和其他窗口管理器/DE(可省去配置过程,稍微占多点儿内存) 的比较 https://www.youtube.com/watch?v=QnYN2CTb1hM
 
 -
