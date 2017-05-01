@@ -32,7 +32,7 @@ https://www.linuxzen.com/awesometmuxgnomedoda-zao-gao-xiao-linuxzhuo-mian-huan-j
 
 awesome + lua (awesome window manager 3.4 3.5 不兼容)
 xmonad + Haskell
-(卡掉 awesome, xmonad )
+(卡掉 awesome, xmonad ) https://l3net.wordpress.com/2013/04/09/a-memory-comparison-of-light-linux-desktops-part-2/
 i3 ++ i3-gaps
 fvwm
 https://sinister.ly/Thread-Tutorial-The-Lazy-Man-s-Guide-to-Ricing-Linux-WM-i3
