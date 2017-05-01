@@ -10,3 +10,13 @@ Exec=/usr/bin/urxvt
 ```
 
 https://makandracards.com/makandra/1367-running-the-awesome-window-manager-within-gnome
+
+
+
+```
+[Desktop Entry] 
+Type=Application
+Name=urxvt
+Exec=/usr/bin/urxvt
+```
+https://fedoraproject.org/wiki/LXDE
