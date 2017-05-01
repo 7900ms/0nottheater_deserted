@@ -11,7 +11,7 @@ https://spins.fedoraproject.org/lxde/
 
 su -c 'dnf group install lxde-desktop'
 https://fedoraproject.org/wiki/LXDE
-
+https://wiki.lxde.org/en/Fedora
 
 
 
