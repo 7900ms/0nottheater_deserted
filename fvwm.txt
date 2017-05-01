@@ -9,6 +9,7 @@ fvwm
 https://www.youtube.com/watch?v=yOwjqsZuJR0 http://tomhayden3.com/2014/05/03/fvwm/   http://fvwmforums.org/wiki/Config/Syntax/
 i3
 https://www.youtube.com/watch?v=j1I63wGcvU4
+https://www.youtube.com/watch?v=QnYN2CTb1hM #  i3 - An Improved Tiling Window Manager (also with floating wm)
 
 ==
 
