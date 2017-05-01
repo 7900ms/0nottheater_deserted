@@ -32,10 +32,16 @@ https://www.linuxzen.com/awesometmuxgnomedoda-zao-gao-xiao-linuxzhuo-mian-huan-j
 
 awesome + lua (awesome window manager 3.4 3.5 不兼容)
 xmonad + Haskell
-(卡掉 awesome, xmonad ) https://l3net.wordpress.com/2013/04/09/a-memory-comparison-of-light-linux-desktops-part-2/
+(卡掉 awesome, xmonad )
 i3 ++ i3-gaps
 fvwm
 https://sinister.ly/Thread-Tutorial-The-Lazy-Man-s-Guide-to-Ricing-Linux-WM-i3
 https://wiki.archlinux.org/index.php/Comparison_of_tiling_window_managers
 https://wiki.archlinux.org/index.php/window_manager
+-
+
+
+一种分类方式：按照内存价位，来找窗口管理器 （没必要非扯着 fvwm wm 或 i3 wm 自己配，而是找那些 ‘占用内存较小’ 的 Desktop Environment --）
+https://l3net.wordpress.com/2013/03/17/a-memory-comparison-of-light-linux-desktops/
+
 -
