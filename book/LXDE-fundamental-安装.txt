@@ -25,4 +25,5 @@ https://github.com/7900ms/0nottheater_deserted/blob/master/supplementary/鲁大�
 新4大件(支持电源管理)
 LXDE(DE) urxvt-terminalEmulator zsh-shell tumx
 
-Lubuntu 14.04 https://www.v2ex.com/t/113452
+Lubuntu 14.04
+服务器操作系统排行 - 大多数人的选择 https://www.v2ex.com/t/113452
