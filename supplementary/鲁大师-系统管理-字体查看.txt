@@ -1,4 +1,14 @@
 
+generic instructions
+安装字体
+下载来
+放到 ~/.fonts
+sudo fc-cache
+fc-list | grep 'wqy'
+https://github.com/adobe-fonts/source-code-pro#font-installation-instructions
+
+= = =
+
 字体文件目录
 fc-list : file
 /usr/share/fonts
@@ -38,12 +48,4 @@ urxvt -fn "xft:DejaVu Sans Mono:style=Book:pixelsize=14:antialias=true,xft:WenQu
 http://good5dog5.github.io/2016/03/19/urxvt-chinese-word-birck/
 
 -
-
-安装字体
-下载来
-放到 ~/.fonts
-sudo fc-cache
-fc-list | grep 'wqy'
-https://github.com/adobe-fonts/source-code-pro#font-installation-instructions
-
 
