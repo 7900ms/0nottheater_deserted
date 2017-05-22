@@ -3,6 +3,7 @@ urxvt
 
 sudo dnf install rxvt-unicode
 /usr/bin/urxvt
+(不同的系统有不同的默认终端，比如 LXTerminal gnome-terminal)
 
 X
 
