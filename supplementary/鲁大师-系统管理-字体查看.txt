@@ -6,6 +6,7 @@ generic instructions
 sudo fc-cache
 fc-list | grep 'wqy'
 https://github.com/adobe-fonts/source-code-pro#font-installation-instructions
+http://seisman.info/linux-environment-for-seismology-research.html
 
 = = =
 
