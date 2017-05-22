@@ -86,6 +86,13 @@ URxvt*hold: false
 
 ! -- Fonts -- !
 
+!编程等宽字体:
+!易于区分 “1”、“i” 和“l”
+!易于区分 “0”、“o” 和“O”
+!易于区分中文下的左引号和右引号
+!不借助 unicode 符号
+!http://seisman.info/linux-environment-for-seismology-research.html
+
 !URxvt*font: xft:Meslo LG S DZ for Powerline:style=Regular:pixelsize=14:antialias=true
 !URxvt*font: xft:Monospace:style=Regular:pixelsize=14:antialias=true
 !URxvt*boldFont: xft:Monospace:style=Bold:pixelsize=14:antialias=true
