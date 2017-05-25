@@ -1,6 +1,7 @@
 
 LXDE
 Lightweight X11 Desktop Environment
+https://l3net.wordpress.com/2013/03/17/a-memory-comparison-of-light-linux-desktops/
 
 A desktop environment
 a bundle of components to provide common graphical user interface elements such as icons, toolbars, wallpapers, and desktop widgets. Most of the desktop environments have their own set of integrated applications and utilities so that users get a uniform feel while using the OS.
