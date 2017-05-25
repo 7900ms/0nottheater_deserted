@@ -73,3 +73,7 @@ linux 窗口平铺器 G tiling window manager work with gnome) bluetile shellsha
 mac 窗口平铺器 moom
 https://www.producthunt.com/posts/magnet-for-mac
 
+
+blog
+https://l3net.wordpress.com/2013/03/17/a-memory-comparison-of-light-linux-desktops/
+
