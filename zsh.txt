@@ -1,4 +1,7 @@
 
+最新：
+https://github.com/7900ms/0nottheater_deserted/blob/master/book/zsh-fundamental-安装.txt
+
 zsh
 
 检查区
