@@ -34,7 +34,7 @@ Lubuntu 14.04 https://wiki.ubuntu.com/Lubuntu
 
 
 
-== update: Xfce over LXDE ==
+== update: Xfce over LXDE (因为 LXDE 的适配性有重大漏洞！不支持 CentOS) ==
 
 update: why not LXDE, why choose Xfce over LXDE?
 
