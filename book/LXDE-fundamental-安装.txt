@@ -34,9 +34,9 @@ Lubuntu 14.04 https://wiki.ubuntu.com/Lubuntu
 
 
 
+== update: Xfce over LXDE ==
 
 update: why not LXDE, why choose Xfce over LXDE?
-
 
 CentOS 不支持 LXDE
 
@@ -45,3 +45,5 @@ Fedora 支持 LXDE
 Xfce: 支持 CentOS, Fedora, Ubuntu, Debian
 
 https://github.com/7900ms/0nottheater_deserted_
+
+-
